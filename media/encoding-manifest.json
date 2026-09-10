@@ -4,8 +4,8 @@
   "clips": [
     {
       "file": "haulage-clean.mp4",
-      "bytes": 2889492,
-      "sha256": "e97458ebe713e2a414a4faefc5617095e6e3f9e6f57e6345f195e435fa6c95e2",
+      "bytes": 2988034,
+      "sha256": "fdc42a7b0157579ce617172e98bfe038131989eeb93ef6018e2c89f118ec6408",
       "programs": [],
       "stream_groups": [],
       "streams": [
@@ -24,8 +24,8 @@
     },
     {
       "file": "haulage-clean.gif",
-      "bytes": 3789514,
-      "sha256": "a16a9b82509e75b0f65bf76043f3a65481b8bb892d0713b5fa43eeb64bea4c7c",
+      "bytes": 3839321,
+      "sha256": "ae11f78323044cf567be1c242ee3e99879f4f7690a74dc8d3b9755a06071fbd4",
       "programs": [],
       "stream_groups": [],
       "streams": [
@@ -41,8 +41,8 @@
     },
     {
       "file": "haulage-annotated.mp4",
-      "bytes": 3274699,
-      "sha256": "b1b324659c264dc2cbd4d343c6113faa38a81bb8d80abb69e7dc745998dfff15",
+      "bytes": 3377457,
+      "sha256": "387bbae2f20a9d8dc3358e55f4cd242e435cde93c19f10ca13716bd45a5b8228",
       "programs": [],
       "stream_groups": [],
       "streams": [
@@ -58,8 +58,8 @@
     },
     {
       "file": "haulage-annotated.gif",
-      "bytes": 3425187,
-      "sha256": "841502b459d21127046bb6418d5851fb9dc0ac6f3dae9bfc5dbb41016464fde5",
+      "bytes": 3441968,
+      "sha256": "b36855a893febb027e0bbeb83d18e2a0e49def033d29c4171bd647d3e0395647",
       "programs": [],
       "stream_groups": [],
       "streams": [

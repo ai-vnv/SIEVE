@@ -13,3 +13,5 @@ The annotations show means from 200 synthetic eight-hour shifts per strategy. Th
 Run the local simulator server, then `npm run media`. Requires Google Chrome, FFmpeg/ffprobe, pinned Playwright, and Times New Roman. Original procedural media are MIT licensed by mansurarief.
 
 Presentation traffic uses lane-aware spacing, and capture checks conservative oriented truck and worker footprints on every frame with a 0.5 m margin per actor. An overlap stops capture. Opposing traffic advances in its direction of travel; the return truck is empty. This check prevents visual interpenetration in the demonstration and is separate from the paper’s stopping-safety evidence.
+
+Wheels rotate from traveled distance using the rendered tire radius. Payload height increases during loading, is full before loaded haul begins, decreases during discharge, and is zero on the empty return lane. Capture verifies all six wheel angles and the loaded/empty states on every frame.

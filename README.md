@@ -123,3 +123,5 @@ Original code, documentation, generated data, and procedural media: **[MIT](LICE
 Use [CITATION.cff](CITATION.cff) to cite the software. The companion manuscript is a submission draft, not an accepted or published conference paper.
 
 Presentation traffic uses lane-aware spacing, and capture checks conservative oriented truck and worker footprints on every frame with a 0.5 m margin per actor. An overlap stops capture. Opposing traffic advances in its direction of travel; the return truck is empty. This check prevents visual interpenetration in the demonstration and is separate from the paper’s stopping-safety evidence.
+
+Wheels rotate from traveled distance using the rendered tire radius. Payload height increases during loading, is full before loaded haul begins, decreases during discharge, and is zero on the empty return lane. Capture verifies all six wheel angles and the loaded/empty states on every frame.

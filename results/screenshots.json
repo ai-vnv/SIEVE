@@ -6,24 +6,6 @@
   },
   "manifest": [
     {
-      "file": "figures/mine-passing.png",
-      "query": "family=nominal&policy=integrated&view=passing&t=12",
-      "paper": true,
-      "result": {
-        "seed": 27000,
-        "family": "nominal",
-        "policy": "integrated",
-        "layer": "extended-model",
-        "collision": false,
-        "bufferViolation": false,
-        "minGap": 38.897188585220874,
-        "stopTime": 12.400000000000041,
-        "stopped": true,
-        "brakeTime": 8.249999999999982,
-        "finalSpeed": 0
-      }
-    },
-    {
       "file": "figures/simulator-overview.png",
       "query": "family=combined&policy=guarded&view=overview&t=9",
       "paper": false,
@@ -274,84 +256,102 @@
         "brakeTime": 8.249999999999982,
         "finalSpeed": 0
       }
+    },
+    {
+      "file": "figures/mine-passing.png",
+      "query": "family=nominal&policy=integrated&view=passing&t=12",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
     }
   ],
   "browserErrors": [],
   "renderDiagnostics": [
     {
-      "calls": 180,
-      "geometries": 241,
-      "textures": 5
-    },
-    {
-      "calls": 287,
-      "geometries": 243,
+      "calls": 453,
+      "geometries": 409,
       "textures": 19
     },
     {
-      "calls": 275,
-      "geometries": 243,
+      "calls": 441,
+      "geometries": 409,
       "textures": 7
     },
     {
-      "calls": 129,
-      "geometries": 243,
+      "calls": 196,
+      "geometries": 409,
       "textures": 7
     },
     {
-      "calls": 115,
-      "geometries": 243,
+      "calls": 149,
+      "geometries": 386,
       "textures": 7
     },
     {
-      "calls": 106,
-      "geometries": 236,
+      "calls": 122,
+      "geometries": 381,
       "textures": 7
     },
     {
       "calls": 24,
-      "geometries": 235,
+      "geometries": 384,
       "textures": 5
     },
     {
-      "calls": 146,
-      "geometries": 235,
+      "calls": 245,
+      "geometries": 384,
       "textures": 5
     },
     {
-      "calls": 80,
-      "geometries": 235,
+      "calls": 109,
+      "geometries": 402,
       "textures": 6
     },
     {
-      "calls": 84,
-      "geometries": 238,
+      "calls": 134,
+      "geometries": 405,
       "textures": 7
     },
     {
-      "calls": 78,
-      "geometries": 250,
+      "calls": 128,
+      "geometries": 417,
       "textures": 6
     },
     {
-      "calls": 233,
-      "geometries": 243,
+      "calls": 399,
+      "geometries": 409,
       "textures": 6
     },
     {
-      "calls": 98,
-      "geometries": 241,
+      "calls": 151,
+      "geometries": 384,
       "textures": 5
     },
     {
-      "calls": 97,
-      "geometries": 241,
+      "calls": 121,
+      "geometries": 384,
       "textures": 5
     },
     {
-      "calls": 232,
-      "geometries": 243,
+      "calls": 375,
+      "geometries": 386,
       "textures": 6
+    },
+    {
+      "calls": 289,
+      "geometries": 384,
+      "textures": 5
     }
   ]
 }

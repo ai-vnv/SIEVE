@@ -3,7 +3,7 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
 import {Encounter,scenario,rng} from './core.mjs';
-import {cinematicTraffic} from './traffic.mjs';
+import {cinematicTraffic,wheelAngle,payloadFraction} from './traffic.mjs';
 const $=id=>document.getElementById(id),query=new URLSearchParams(location.search);
 if(query.has('paper'))document.body.classList.add('paper');
 if(query.has('clean'))document.body.classList.add('clean');
@@ -69,14 +69,29 @@ function beam(a,b,w,m,p){const d=b.clone().sub(a),o=box(w,d.length(),w,m,...a.cl
 beam(new THREE.Vector3(1,4,0),new THREE.Vector3(8,12,0),1.5,yellow,excavator);beam(new THREE.Vector3(8,12,0),new THREE.Vector3(14,8,0),1.2,yellow,excavator);box(4,2,4,steel,14,7.5,0,excavator);
 function label(text,color='#dfedcd',scale=1){const c=document.createElement('canvas');c.width=512;c.height=128;const ctx=c.getContext('2d');ctx.fillStyle='rgba(18,40,40,.88)';ctx.beginPath();ctx.roundRect(8,15,496,96,12);ctx.fill();ctx.fillStyle=color;ctx.font='38px "Times New Roman"' ;ctx.textAlign='center';ctx.fillText(text,256,77);const tex=new THREE.CanvasTexture(c);tex.colorSpace=THREE.SRGBColorSpace;const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,depthTest:false}));sp.scale.set(13*scale,3.25*scale,1);sp.userData.textLabel=true;return sp;}
 function truck(name,color=yellow){const g=new THREE.Group();scene.add(g);box(10,1.1,5.2,steel,0,2.4,0,g);box(6.4,1.4,5.8,color,-1.2,3.4,0,g);box(7.2,.5,6.1,color,-1.2,4.4,0,g);for(let side of[-1,1]){const wall=box(7.2,2.3,.32,color,-1.2,5.4,side*3,g);wall.rotation.x=side*.15;}box(.4,2.2,6,color,-4.8,5.4,0,g);box(.5,2.5,6,color,2.5,5.5,0,g);box(3.4,1,6.8,color,3.7,3.9,0,g);box(2.5,2.3,2.6,color,3.8,5.3,-1.5,g);box(.08,1.2,2.2,glass,5.08,5.6,-1.5,g);box(1.8,1.2,.08,glass,3.8,5.6,-2.85,g);box(3.1,.25,3.2,color,3.8,6.55,-1.5,g);box(.8,2.3,1.2,steel,3.2,5.4,1.7,g);cyl(.14,.14,2.3,steel,2.6,7,1.3,g);cyl(.3,.3,.35,glass,4,6.85,-1.5,g);
- for(const x of[-3.1,-.9,3.8])for(const z of[-3,3]){let tire=cyl(1.65,1.65,1.1,rubber,x,1.65,z,g,24);tire.rotation.x=Math.PI/2;let hub=cyl(.8,.8,1.13,steel,x,1.65,z,g);hub.rotation.x=Math.PI/2;let cap=cyl(.35,.35,1.16,color,x,1.65,z,g);cap.rotation.x=Math.PI/2;for(let j=0;j<12;j++){let a=j*Math.PI/6;const tread=box(.25,.25,1.15,steel,x+1.61*Math.cos(a),1.65+1.61*Math.sin(a),z,g);tread.rotation.z=a;}}
+ g.userData.wheels=[];
+ for(const x of[-3.1,-.9,3.8])for(const z of[-3,3]){
+ const wheel=new THREE.Group();wheel.position.set(x,1.65,z);g.add(wheel);g.userData.wheels.push(wheel);
+ let tire=cyl(1.65,1.65,1.1,rubber,0,0,0,wheel,24);tire.rotation.x=Math.PI/2;
+ let hub=cyl(.8,.8,1.13,steel,0,0,0,wheel);hub.rotation.x=Math.PI/2;
+ let cap=cyl(.35,.35,1.16,color,0,0,0,wheel);cap.rotation.x=Math.PI/2;
+ for(let j=0;j<12;j++){let a=j*Math.PI/6;const tread=box(.25,.25,1.15,steel,1.61*Math.cos(a),1.61*Math.sin(a),0,wheel);tread.rotation.z=a;}
+ // Asymmetric hub spokes make physical rotation visible without painted text.
+ for(let j=0;j<3;j++){const a=j*Math.PI*2/3;const spoke=box(.5,.14,1.18,color,.5*Math.cos(a),.5*Math.sin(a),0,wheel);spoke.rotation.z=a;}
+ }
+
  for(let z of[-2.8,2.8]){box(.18,.5,.6,white,5.45,3.3,z,g);box(.12,.35,.5,orange,-5.05,2.5,z,g);}for(let i=0;i<5;i++)box(.6,.15,1,steel,5.5,1+i*.55,-1.5,g);
  for(let x of[2.5,5.2])for(let z of[-3.2,3.2])cyl(.055,.055,1.4,white,x,4.7,z,g,6);beam(new THREE.Vector3(2.5,5.4,3.2),new THREE.Vector3(5.2,5.4,3.2),.08,white,g);
- // Ore load sits below the bed walls.
- for(let i=0;i<16;i++){const o=mesh(new THREE.DodecahedronGeometry(.7+random()*.55,0),rock,-3.8+random()*5,4.8+random()*.4,-2+random()*4,g);o.scale.y=.65;}
+ // A continuous ore volume and rough top fill the bed; height is a state variable.
+ const load=new THREE.Group();load.position.y=4.65;g.add(load);g.userData.load=load;g.userData.payloadFraction=1;
+ box(6.4,1.15,5.2,rock,-1.15,.575,0,load);
+ const heap=mesh(new THREE.SphereGeometry(1,12,6,0,Math.PI*2,0,Math.PI/2),rock,-1.15,1.12,0,load);heap.scale.set(3.2,.8,2.6);
+ for(let i=0;i<28;i++){const o=mesh(new THREE.DodecahedronGeometry(.35+random()*.25,0),rock,-4+random()*5.8,1.25+random()*.3,-2.2+random()*4.4,load);o.scale.y=.65;}
  const tag=label(name);tag.position.set(0,10,0);g.add(tag);return g;}
 const ego=truck('A-01'),obstacle=truck('A-02 · STOP',orange),hauler=truck('A-03');
-function place(g,s){const{p,d}=laneAt(s);g.position.copy(p);g.rotation.y=-Math.atan2(d.z,d.x);}
+function rollTruck(g,distance){g.userData.rollMetres=distance;for(const wheel of g.userData.wheels)wheel.rotation.z=wheelAngle(distance);}
+function setPayload(g,fraction){const f=Math.min(1,Math.max(0,fraction));g.userData.payloadFraction=f;g.userData.load.visible=f>.001;g.userData.load.scale.y=Math.max(.001,f);}
+function place(g,s){const{p,d}=laneAt(s);g.position.copy(p);g.rotation.y=-Math.atan2(d.z,d.x);rollTruck(g,s);}
 const safeGroup=new THREE.Group();scene.add(safeGroup);
 const halo=mesh(new THREE.RingGeometry(9,9.25,72),new THREE.MeshBasicMaterial({color:'#d9f298',side:THREE.DoubleSide,transparent:true,opacity:.8}),0,.5,0,safeGroup);halo.rotation.x=-Math.PI/2;
 const obstacleZone=mesh(new THREE.RingGeometry(11,11.5,72),new THREE.MeshBasicMaterial({color:'#ff996f',side:THREE.DoubleSide,transparent:true,opacity:.9}),0,.5,0,safeGroup);obstacleZone.rotation.x=-Math.PI/2;
@@ -111,7 +126,7 @@ dumpQueue.position.set(-12,.25,20);dumpQueue.rotation.y=Math.PI;
 excavator.position.set(-51,0,-42);excavator.rotation.y=-Math.PI/2;
 // Raise the rear-hinged body, keeping chassis, cab, wheels, and personnel fixed.
 const dumpBed=new THREE.Group();dumpBed.position.set(-4.8,4.4,0);dumpTruck.add(dumpBed);
-for(const part of [...dumpTruck.children].filter((o,i)=>(i>=2&&i<=6)||(o.isMesh&&o.geometry.type==='DodecahedronGeometry'))){part.position.sub(dumpBed.position);dumpBed.add(part);}
+for(const part of [...dumpTruck.children].filter((o,i)=>(i>=2&&i<=6)||o===dumpTruck.userData.load)){part.position.sub(dumpBed.position);dumpBed.add(part);}
 const oreStream=new THREE.Group();scene.add(oreStream);
 for(let i=0;i<22;i++)mesh(new THREE.IcosahedronGeometry(.35+random()*.45,0),rock,20+random()*3,1+random()*5,18+random()*4,oreStream);
 const bucketOre=new THREE.Group();scene.add(bucketOre);
@@ -121,16 +136,19 @@ for(const [x,z]of[[-52,-17],[9,34]]){for(let i=0;i<3;i++){const w=worker('observ
 const passingTrucks=[truck('H-04'),truck('H-05'),truck('H-06'),truck('H-07')];
 const shovelSwing=excavator.rotation.y;
 function updateWorkflow(t){
- dumpBed.rotation.z=.65+.13*Math.sin(t*.35);
+ const cycle=t%16;dumpBed.rotation.z=.9*Math.min(1,cycle/3)*Math.min(1,(16-cycle)/3);
+ setPayload(loaderTruck,Math.min(1,cycle/7));setPayload(loaderQueue,0);setPayload(dumpTruck,Math.max(0,1-(cycle-3)/8));setPayload(dumpQueue,1);
+ bucketOre.visible=cycle<7;oreStream.visible=cycle>3&&cycle<11;
  excavator.rotation.y=shovelSwing+.13*Math.sin(t*.45);
  bucketOre.children.forEach((o,i)=>o.position.y=5+((i*.39-t*2)%3+3)%3);
  oreStream.children.forEach((o,i)=>o.position.y=.7+((i*.27-t*2.5)%4.8+4.8)%4.8);
- passingTrucks.forEach((g,i)=>{const opposite=i%2===0,{p,d}=routeAt((opposite?-1:1)*t*7+[350,200,650,540][i],opposite?-8:8);g.position.copy(p);g.rotation.y=-Math.atan2(d.z,d.x)+(opposite?Math.PI:0);});
+ passingTrucks.forEach((g,i)=>{const opposite=i%2===0,{p,d}=routeAt((opposite?-1:1)*t*7+[350,200,650,540][i],opposite?-8:8);g.position.copy(p);g.rotation.y=-Math.atan2(d.z,d.x)+(opposite?Math.PI:0);rollTruck(g,t*7);setPayload(g,opposite?0:1);});
 }
 if(query.has('paper'))for(const g of [...workflowTrucks,...passingTrucks])g.children.filter(o=>o.isSprite).forEach(o=>o.visible=false);
 // Batch rigid parts by material. This keeps the detailed scene below a few hundred
 // draw calls and avoids allocating thousands of per-object shadow draws per frame.
 function batchRigid(parent){const buckets=new Map();for(const o of [...parent.children]){if(!o.isMesh||Array.isArray(o.material))continue;o.updateMatrix();const g=o.geometry.index?o.geometry.toNonIndexed():o.geometry.clone();g.applyMatrix4(o.matrix);const key=o.material.uuid;if(!buckets.has(key))buckets.set(key,{material:o.material,geometries:[],objects:[]});const b=buckets.get(key);b.geometries.push(g);b.objects.push(o);}for(const b of buckets.values()){if(b.objects.length<2){b.geometries.forEach(g=>g.dispose());continue;}const merged=mergeGeometries(b.geometries);if(!merged){b.geometries.forEach(g=>g.dispose());continue;}const o=new THREE.Mesh(merged,b.material);o.castShadow=true;o.receiveShadow=true;for(const old of b.objects){parent.remove(old);old.geometry.dispose();}b.geometries.forEach(g=>g.dispose());parent.add(o);}}
+for(const g of [ego,obstacle,hauler,...workflowTrucks,...passingTrucks]){batchRigid(g.userData.load);for(const wheel of g.userData.wheels)batchRigid(wheel);}
 for(const parent of [scene,excavator,ego,obstacle,hauler,slide,dumpBed,...workflowTrucks,...passingTrucks,...stationWorkers,...crew.children.filter(x=>x.isGroup)])batchRigid(parent);
 let needsRender=true;controls.addEventListener('change',()=>{needsRender=true;});let lastFrame=-1;let run,frames,elapsed=0,playing=!query.has('paused'),view=query.get('view')||'overview',last=performance.now();
 function deploy(){const seed=Number($('seed').value);if(!Number.isInteger(seed)||seed<0||seed>4294967295){$('seed').value=27000;}
@@ -162,21 +180,21 @@ function cinematic(t){
  }else if(phase==='hauling'||phase==='return'){
    bucketOre.visible=false;const returning=phase==='return',u=returning?(t-20)/4:(t-6)/8;
    const {p,d}=routeAt(traffic.hero.s,traffic.hero.lane);
-   for(const o of hauler.children)if(o.isMesh&&o.material===rock)o.visible=!returning;
-   passingTrucks.forEach((g,i)=>{const a=traffic.background[i],{p:q,d:v}=routeAt(a.s,a.lane);g.position.copy(q);g.rotation.y=-Math.atan2(v.z,v.x)+(a.direction<0?Math.PI:0);for(const o of g.children)if(o.isMesh&&o.material===rock)o.visible=a.direction>0;});
+   setPayload(hauler,returning?0:1);rollTruck(hauler,traffic.hero.s*traffic.hero.direction);
+   passingTrucks.forEach((g,i)=>{const a=traffic.background[i],{p:q,d:v}=routeAt(a.s,a.lane);g.position.copy(q);g.rotation.y=-Math.atan2(v.z,v.x)+(a.direction<0?Math.PI:0);setPayload(g,a.direction>0?1:0);rollTruck(g,a.s*a.direction);});
    hauler.visible=true;hauler.position.copy(p);hauler.rotation.y=-Math.atan2(d.z,d.x)+(returning?Math.PI:0);
    camera.position.copy(p).addScaledVector(d,returning?30:-30).add(new THREE.Vector3(-22,20,34));controls.target.copy(p).add(new THREE.Vector3(0,3,0));
  }else{
    const u=(t-14)/6;camera.position.set(-18+u*5,22,60-u*3);controls.target.set(19,4,21);
    dumpBed.rotation.z=.9*smooth(Math.min(1,u*2));bucketOre.visible=false;
  }
- for(const o of dumpBed.children)if(o.isMesh&&o.material===rock)o.visible=!(phase==='unloading'&&t>18);
+ setPayload(loaderTruck,payloadFraction('loading',Math.min(t,6)));setPayload(dumpTruck,t<14?1:payloadFraction('unloading',t));
  oreStream.visible=phase==='unloading'&&t>16&&t<19.5;
  controls.target.y=Math.max(2,controls.target.y);camera.lookAt(controls.target);renderer.render(scene,camera);needsRender=false;
  scene.updateMatrixWorld(true);
- const actors=[...workflowTrucks,...passingTrucks,...(hauler.visible?[hauler]:[])].map((g,i)=>({id:`truck-${i}`,kind:'truck',x:g.position.x,z:g.position.z,yaw:g.rotation.y,halfLength:6.2,halfWidth:3.8}));
+ const actors=[...workflowTrucks,...passingTrucks,...(hauler.visible?[hauler]:[])].map((g,i)=>({id:`truck-${i}`,kind:'truck',x:g.position.x,z:g.position.z,yaw:g.rotation.y,halfLength:6.2,halfWidth:3.8,payloadFraction:g.userData.payloadFraction,rollMetres:g.userData.rollMetres||0,wheelAngles:g.userData.wheels.map(w=>w.rotation.z)}));
  for(const [i,g]of [...stationWorkers,...crew.children.filter(x=>x.isGroup)].entries()){const p=g.getWorldPosition(new THREE.Vector3());actors.push({id:`worker-${i}`,kind:'worker',x:p.x,z:p.z,yaw:0,halfLength:.6,halfWidth:.6});}
- return {phase,illustrative:true,time:t,actors};
+ return {phase,illustrative:true,time:t,actors,heroPayload:phase==='loading'?loaderTruck.userData.payloadFraction:phase==='unloading'?dumpTruck.userData.payloadFraction:hauler.userData.payloadFraction};
 }
 window.sieve={cinematic,setTime(t){playing=false;elapsed=Math.min(run.t,Math.max(0,t));update();controls.update();renderer.render(scene,camera);},setView,get result(){return run.result();},get ready(){return true;},get stats(){return {calls:renderer.info.render.calls,geometries:renderer.info.memory.geometries,textures:renderer.info.memory.textures};},renderer};
 let lastDraw=0;function animate(now){requestAnimationFrame(animate);if(now-lastDraw<33)return;lastDraw=now;const dt=Math.min(.1,(now-last)/1000);last=now;if(playing){if(['loading','unloading','operations','passing'].includes(view)){elapsed=(elapsed+dt*Number($('rate').value))%90;}else{elapsed=Math.min(run.t,elapsed+dt*Number($('rate').value));if(elapsed>=run.t)playing=false;}update();}const changed=controls.update();if(changed||needsRender){renderer.render(scene,camera);needsRender=false;}}requestAnimationFrame(animate);

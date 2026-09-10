@@ -22,3 +22,11 @@ export function intersect(a,b,margin=0){
  return true;
 }
 export function overlapPairs(actors,margin=.5){const pairs=[];for(let i=0;i<actors.length;i++)for(let j=i+1;j<actors.length;j++){if(actors[i].kind==='worker'&&actors[j].kind==='worker')continue;if(intersect(actors[i],actors[j],margin))pairs.push([actors[i].id,actors[j].id]);}return pairs;}
+
+export const wheelAngle=(distance,radius=1.65)=>-distance/radius;
+export function payloadFraction(phase,t){
+ if(phase==='loading')return Math.max(0,Math.min(1,(t-.5)/4.7));
+ if(phase==='hauling')return 1;
+ if(phase==='unloading')return Math.max(0,Math.min(1,1-(t-16)/3.2));
+ return 0;
+}
