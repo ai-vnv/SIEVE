@@ -23,7 +23,7 @@
   "author": "mansurarief",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mansurarief/SIEVE.git"
+    "url": "https://github.com/ai-vnv/SIEVE.git"
   },
   "engines": {
     "node": ">=24"

@@ -11,6 +11,6 @@ dirty=bool(subprocess.check_output(['git','status','--porcelain'],cwd=root,text=
 hashes={}
 for name in assets:
  target=dest/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/name,target);hashes[name]=hashlib.sha256(target.read_bytes()).hexdigest()
-record={'repository':'https://github.com/mansurarief/SIEVE','commit':commit,'workingTreeDirty':dirty,'modelVersion':'sieve-1.1.0','evidenceOrigin':'synthetic','assets':hashes,'assuranceSHA256':hashlib.sha256((root/'results/assurance-case.json').read_bytes()).hexdigest()}
+record={'repository':'https://github.com/ai-vnv/SIEVE','commit':commit,'workingTreeDirty':dirty,'modelVersion':'sieve-1.1.0','evidenceOrigin':'synthetic','assets':hashes,'assuranceSHA256':hashlib.sha256((root/'results/assurance-case.json').read_bytes()).hexdigest()}
 (dest/'code-provenance.json').write_text(json.dumps(record,indent=2)+'\n')
 print(f'Exported {len(assets)} inputs from {commit}; workingTreeDirty={dirty}')

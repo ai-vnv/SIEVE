@@ -2,7 +2,7 @@
 
 **Staged Integration of Evidence across Verification Environments**
 
-[![Reproducibility](https://github.com/mansurarief/SIEVE/actions/workflows/ci.yml/badge.svg)](https://github.com/mansurarief/SIEVE/actions/workflows/ci.yml)
+[![Reproducibility](https://github.com/ai-vnv/SIEVE/actions/workflows/ci.yml/badge.svg)](https://github.com/ai-vnv/SIEVE/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-397d80.svg)](LICENSE)
 ![Node.js 24](https://img.shields.io/badge/Node.js-24-627d98.svg)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-627d98.svg)
@@ -31,7 +31,7 @@ These are synthetic illustrative montages, with compressed presentation time and
 Requires Node.js 24+ and Python 3.
 
 ```sh
-git clone https://github.com/mansurarief/SIEVE.git
+git clone https://github.com/ai-vnv/SIEVE.git
 cd SIEVE
 npm ci
 npm start
