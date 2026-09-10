@@ -30,3 +30,15 @@ export function payloadFraction(phase,t){
  if(phase==='unloading')return Math.max(0,Math.min(1,1-(t-16)/3.2));
  return 0;
 }
+
+// Two axles: front singles and rear duals. Centres and widths include tread clearance.
+export const WHEEL_LAYOUT=[
+ {x:3.8,z:-3.32},{x:3.8,z:3.32},
+ {x:-2.7,z:-3.32},{x:-2.7,z:-2.10},{x:-2.7,z:2.10},{x:-2.7,z:3.32}
+];
+export const WHEEL_ENVELOPE={radius:1.75,width:1.08};
+export function wheelIntersections(layout=WHEEL_LAYOUT){
+ const result=[];for(let i=0;i<layout.length;i++)for(let j=i+1;j<layout.length;j++){
+  if(Math.abs(layout[i].x-layout[j].x)<2*WHEEL_ENVELOPE.radius&&Math.abs(layout[i].z-layout[j].z)<WHEEL_ENVELOPE.width)result.push([i,j]);
+ }return result;
+}

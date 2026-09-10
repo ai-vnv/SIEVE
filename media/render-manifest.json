@@ -1,10 +1,13 @@
 {
   "sourceHashes": {
-    "simulator/app.mjs": "66ca8724db015586806f44ad5cf9f47e705ce0fbc5205b0e93e24c127961f748",
+    "simulator/app.mjs": "c8eaf96291bb1fb684f7146f85e9f0879eda3c992219c0efbfa2d5b0bfdc8662",
     "simulator/core.mjs": "1e61305727a972ab82c4a2dd410dbdecf453e696f61db72d137812f1f4ee0e12",
-    "simulator/traffic.mjs": "e21f16f73576d671fe0d89c23d0da401cc2c702bd85abc24b06ec397d5d26523",
-    "simulator/style.css": "c906fb778452246e8f42d986bc30e12ef2280f86cf698aa118d62cf3c13aeb58"
+    "simulator/traffic.mjs": "998f4ac2af15cbc6734b9870db9d5d2e516fd7a6d2ca965207d5f06f826a56cb",
+    "simulator/style.css": "53b21d313269bdfd45c170c3e75d424c363a354ab92600c2dcea39793ea67c77",
+    "simulator/index.html": "71783590f302fc06c23b278a1fd72e053b1cd325a8611945a266114ff1c5948e"
   },
+  "surface": "unpaved",
+  "wheelGeometryOverlaps": 0,
   "width": 960,
   "height": 540,
   "fps": 20,
@@ -25,7 +28,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -44,7 +47,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -63,7 +66,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -82,7 +85,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -101,7 +104,7 @@
           "z": 70.00724409909155,
           "yaw": 5.4860036716918135,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -120,7 +123,7 @@
           "z": 103.72551306433822,
           "yaw": -3.089053499288674,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -139,7 +142,7 @@
           "z": -119.31607259881089,
           "yaw": 3.063414435856222,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -158,7 +161,7 @@
           "z": -84.09226400910846,
           "yaw": 0.4749615092262113,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -252,6 +255,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0
     },
     {
@@ -266,7 +271,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.10638297872340426,
           "rollMetres": 0,
           "wheelAngles": [
@@ -285,7 +290,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -304,7 +309,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -323,7 +328,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -342,7 +347,7 @@
           "z": 80.06025999689214,
           "yaw": 5.594660965635139,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 14,
           "wheelAngles": [
@@ -361,7 +366,7 @@
           "z": 103.98042254545079,
           "yaw": 3.1288229643786156,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 14,
           "wheelAngles": [
@@ -380,7 +385,7 @@
           "z": -119.9807303413995,
           "yaw": 3.1288229643786165,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 14,
           "wheelAngles": [
@@ -399,7 +404,7 @@
           "z": -89.70279125401623,
           "yaw": 0.392546840215118,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 14,
           "wheelAngles": [
@@ -493,6 +498,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.10638297872340426
     },
     {
@@ -507,7 +514,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.3191489361702127,
           "rollMetres": 0,
           "wheelAngles": [
@@ -526,7 +533,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -545,7 +552,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -564,7 +571,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -583,7 +590,7 @@
           "z": 88.86378438996458,
           "yaw": 5.692476572566077,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 28,
           "wheelAngles": [
@@ -602,7 +609,7 @@
           "z": 103.35508139120154,
           "yaw": 3.0634144358562163,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 28,
           "wheelAngles": [
@@ -621,7 +628,7 @@
           "z": -119.69680453182576,
           "yaw": 3.19413180789091,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 28,
           "wheelAngles": [
@@ -640,7 +647,7 @@
           "z": -94.35976559179493,
           "yaw": 0.3169133005606855,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 28,
           "wheelAngles": [
@@ -734,6 +741,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.3191489361702127
     },
     {
@@ -748,7 +757,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.5319148936170213,
           "rollMetres": 0,
           "wheelAngles": [
@@ -767,7 +776,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -786,7 +795,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -805,7 +814,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -824,7 +833,7 @@
           "z": 96.47826193654284,
           "yaw": 5.784381145111451,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 42,
           "wheelAngles": [
@@ -843,7 +852,7 @@
           "z": 101.84537983516073,
           "yaw": 2.9973947495735724,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 42,
           "wheelAngles": [
@@ -862,7 +871,7 @@
           "z": -118.4619694321165,
           "yaw": 3.259851049676003,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 42,
           "wheelAngles": [
@@ -881,7 +890,7 @@
           "z": -98.07850805294106,
           "yaw": 0.2440192005801588,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 42,
           "wheelAngles": [
@@ -975,6 +984,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.5319148936170213
     },
     {
@@ -989,7 +1000,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.7446808510638298,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1008,7 +1019,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1027,7 +1038,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1046,7 +1057,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1065,7 +1076,7 @@
           "z": 102.93994335491077,
           "yaw": 5.867967563110611,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 56,
           "wheelAngles": [
@@ -1084,7 +1095,7 @@
           "z": 99.44591540230948,
           "yaw": 2.9272906678449493,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 56,
           "wheelAngles": [
@@ -1103,7 +1114,7 @@
           "z": -116.26624767858581,
           "yaw": 3.3264964372602015,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 56,
           "wheelAngles": [
@@ -1122,7 +1133,7 @@
           "z": -100.88571831521446,
           "yaw": 0.17613988139140835,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 56,
           "wheelAngles": [
@@ -1216,6 +1227,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.7446808510638298
     },
     {
@@ -1230,7 +1243,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.9574468085106382,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1249,7 +1262,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1268,7 +1281,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1287,7 +1300,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1306,7 +1319,7 @@
           "z": 108.30232170853108,
           "yaw": 5.944524338759458,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 70,
           "wheelAngles": [
@@ -1325,7 +1338,7 @@
           "z": 96.13328553684538,
           "yaw": 2.858389955111301,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 70,
           "wheelAngles": [
@@ -1344,7 +1357,7 @@
           "z": -113.08578423325538,
           "yaw": 3.3975981326594673,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 70,
           "wheelAngles": [
@@ -1363,7 +1376,7 @@
           "z": -102.79234882598676,
           "yaw": 0.10964491569552959,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 70,
           "wheelAngles": [
@@ -1457,6 +1470,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.9574468085106382
     },
     {
@@ -1471,7 +1486,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1490,7 +1505,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1509,7 +1524,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1528,7 +1543,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1547,7 +1562,7 @@
           "z": 70.00724409909155,
           "yaw": 5.4860036716918135,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -350,
           "wheelAngles": [
@@ -1566,7 +1581,7 @@
           "z": 89.7993933989949,
           "yaw": 2.7490458133746833,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 290,
           "wheelAngles": [
@@ -1585,7 +1600,7 @@
           "z": 115.89900649356089,
           "yaw": 0.1936924003345175,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -170,
           "wheelAngles": [
@@ -1604,7 +1619,7 @@
           "z": 80.50317014886517,
           "yaw": -2.618578907801802,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 110,
           "wheelAngles": [
@@ -1623,7 +1638,7 @@
           "z": 103.99727457818301,
           "yaw": -3.1373362787273176,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 210,
           "wheelAngles": [
@@ -1717,6 +1732,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -1731,7 +1748,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1750,7 +1767,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1769,7 +1786,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1788,7 +1805,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -1807,7 +1824,7 @@
           "z": 83.97896370049175,
           "yaw": 5.636818061013159,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -330,
           "wheelAngles": [
@@ -1826,7 +1843,7 @@
           "z": 80.62867442152101,
           "yaw": 2.6185789078017727,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 311.875,
           "wheelAngles": [
@@ -1845,7 +1862,7 @@
           "z": 110.85968000520286,
           "yaw": 0.295398514313264,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -150,
           "wheelAngles": [
@@ -1864,7 +1881,7 @@
           "z": 89.70327447961304,
           "yaw": -2.749045813374702,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 131.875,
           "wheelAngles": [
@@ -1883,7 +1900,7 @@
           "z": 103.02739333227821,
           "yaw": 3.043409887000716,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 231.875,
           "wheelAngles": [
@@ -1977,6 +1994,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -1991,7 +2010,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2010,7 +2029,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2029,7 +2048,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2048,7 +2067,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2067,7 +2086,7 @@
           "z": 95.45781199616206,
           "yaw": 5.770593116076147,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -310,
           "wheelAngles": [
@@ -2086,7 +2105,7 @@
           "z": 69.04292541036122,
           "yaw": 2.468533918346652,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 333.75,
           "wheelAngles": [
@@ -2105,7 +2124,7 @@
           "z": 103.7175681238935,
           "yaw": 0.40546512167668247,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -130,
           "wheelAngles": [
@@ -2124,7 +2143,7 @@
           "z": 96.56911053751486,
           "yaw": -2.864462254393164,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 153.75,
           "wheelAngles": [
@@ -2143,7 +2162,7 @@
           "z": 99.89149346351383,
           "yaw": 2.939085730945057,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 253.75,
           "wheelAngles": [
@@ -2237,6 +2256,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -2251,7 +2272,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2270,7 +2291,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2289,7 +2310,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2308,7 +2329,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2327,7 +2348,7 @@
           "z": 104.58239791256234,
           "yaw": 5.890638466964477,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -290,
           "wheelAngles": [
@@ -2346,7 +2367,7 @@
           "z": 55.00229213212478,
           "yaw": 2.293624592641201,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 355.625,
           "wheelAngles": [
@@ -2365,7 +2386,7 @@
           "z": 94.36425447638575,
           "yaw": 0.5230137457879911,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -110,
           "wheelAngles": [
@@ -2384,7 +2405,7 @@
           "z": 101.1726962337358,
           "yaw": -2.974193146168018,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 175.625,
           "wheelAngles": [
@@ -2403,7 +2424,7 @@
           "z": 94.54691252499777,
           "yaw": 2.827766774009156,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 275.625,
           "wheelAngles": [
@@ -2497,6 +2518,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -2511,7 +2534,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2530,7 +2553,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2549,7 +2572,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2568,7 +2591,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2587,7 +2610,7 @@
           "z": 111.49593237055278,
           "yaw": 5.999982608701094,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -270,
           "wheelAngles": [
@@ -2606,7 +2629,7 @@
           "z": 38.603444511471224,
           "yaw": 2.088910901198151,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 377.5,
           "wheelAngles": [
@@ -2625,7 +2648,7 @@
           "z": 82.6139624025037,
           "yaw": 0.6615619373539277,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -90,
           "wheelAngles": [
@@ -2644,7 +2667,7 @@
           "z": 103.58712024989678,
           "yaw": -3.077667932045762,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 197.5,
           "wheelAngles": [
@@ -2663,7 +2686,7 @@
           "z": 86.9207109154851,
           "yaw": 2.706699567719469,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 297.5,
           "wheelAngles": [
@@ -2757,6 +2780,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -2771,7 +2796,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2790,7 +2815,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2809,7 +2834,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2828,7 +2853,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -2847,7 +2872,7 @@
           "z": 116.31267514937039,
           "yaw": 6.098281523509154,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -250,
           "wheelAngles": [
@@ -2866,7 +2891,7 @@
           "z": 20.275300285029743,
           "yaw": 1.8472929854338331,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 399.375,
           "wheelAngles": [
@@ -2885,7 +2910,7 @@
           "z": 68.34892814616244,
           "yaw": 0.8181509944306469,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -70,
           "wheelAngles": [
@@ -2904,7 +2929,7 @@
           "z": 103.8446092339299,
           "yaw": 3.1032683374480814,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 219.375,
           "wheelAngles": [
@@ -2923,7 +2948,7 @@
           "z": 76.93470305935057,
           "yaw": 2.5689913495128067,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 319.375,
           "wheelAngles": [
@@ -3017,6 +3042,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -3031,7 +3058,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3050,7 +3077,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3069,7 +3096,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3088,7 +3115,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3107,7 +3134,7 @@
           "z": 119.13097617774864,
           "yaw": 6.193583773353598,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -230,
           "wheelAngles": [
@@ -3126,7 +3153,7 @@
           "z": 0.8110323834963589,
           "yaw": 1.578948252688451,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 421.25,
           "wheelAngles": [
@@ -3145,7 +3172,7 @@
           "z": 51.4807966096791,
           "yaw": 1.00056310195535,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -50,
           "wheelAngles": [
@@ -3164,7 +3191,7 @@
           "z": 101.94942301929709,
           "yaw": 3.0002848850235933,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 241.25,
           "wheelAngles": [
@@ -3183,7 +3210,7 @@
           "z": 64.49376554067118,
           "yaw": 2.413705560351046,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 341.25,
           "wheelAngles": [
@@ -3277,6 +3304,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -3291,7 +3320,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3310,7 +3339,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3329,7 +3358,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3348,7 +3377,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3367,7 +3396,7 @@
           "z": 119.99712964458607,
           "yaw": 0.004256374862475543,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -210,
           "wheelAngles": [
@@ -3386,7 +3415,7 @@
           "z": -18.746576939704884,
           "yaw": 1.315320190551315,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 443.125,
           "wheelAngles": [
@@ -3405,7 +3434,7 @@
           "z": 32.156020226760695,
           "yaw": 1.2114288575734466,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -30,
           "wheelAngles": [
@@ -3424,7 +3453,7 @@
           "z": 97.87663723882757,
           "yaw": 2.8915877760476136,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 263.125,
           "wheelAngles": [
@@ -3443,7 +3472,7 @@
           "z": 49.62799697394611,
           "yaw": 2.227898224442139,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 363.125,
           "wheelAngles": [
@@ -3537,6 +3566,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -3551,7 +3582,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3570,7 +3601,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3589,7 +3620,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3608,7 +3639,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3627,7 +3658,7 @@
           "z": 112.03323264306155,
           "yaw": 0.27410048930940834,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 196,
           "wheelAngles": [
@@ -3646,7 +3677,7 @@
           "z": 23.22424109011996,
           "yaw": 1.8837995203149012,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 196,
           "wheelAngles": [
@@ -3665,7 +3696,7 @@
           "z": -34.05504246898189,
           "yaw": 4.332638523509173,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 196,
           "wheelAngles": [
@@ -3684,7 +3715,7 @@
           "z": -79.67639994895833,
           "yaw": -0.5370190598553025,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 196,
           "wheelAngles": [
@@ -3778,6 +3809,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -3792,7 +3825,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3811,7 +3844,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3830,7 +3863,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3849,7 +3882,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -3868,7 +3901,7 @@
           "z": 107.56166760458241,
           "yaw": 0.34805672120483644,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 210,
           "wheelAngles": [
@@ -3887,7 +3920,7 @@
           "z": 10.894185463976523,
           "yaw": 1.71972272595436,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 210,
           "wheelAngles": [
@@ -3906,7 +3939,7 @@
           "z": -19.464349710537075,
           "yaw": 4.493951702965472,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 210,
           "wheelAngles": [
@@ -3925,7 +3958,7 @@
           "z": -72.39995954419504,
           "yaw": -0.6313235759541731,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 210,
           "wheelAngles": [
@@ -4019,6 +4052,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -4033,7 +4068,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4052,7 +4087,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4071,7 +4106,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4090,7 +4125,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4109,7 +4144,7 @@
           "z": 102.02779631998453,
           "yaw": 0.4283089789655179,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 224,
           "wheelAngles": [
@@ -4128,7 +4163,7 @@
           "z": -1.6779560549753834,
           "yaw": 1.546342619674664,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 224,
           "wheelAngles": [
@@ -4147,7 +4182,7 @@
           "z": -4.241555844223556,
           "yaw": 4.666209934198217,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 224,
           "wheelAngles": [
@@ -4166,7 +4201,7 @@
           "z": -64.0986689545693,
           "yaw": -0.7318793303440104,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 224,
           "wheelAngles": [
@@ -4260,6 +4295,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 1
     },
     {
@@ -4274,7 +4311,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4293,7 +4330,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4312,7 +4349,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.6875,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4331,7 +4368,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4350,7 +4387,7 @@
           "z": 95.39588773750489,
           "yaw": 0.512592191103455,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 238,
           "wheelAngles": [
@@ -4369,7 +4406,7 @@
           "z": -14.248224899915774,
           "yaw": 1.3789929215330274,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 238,
           "wheelAngles": [
@@ -4388,7 +4425,7 @@
           "z": 11.073495858543982,
           "yaw": 4.834379607095568,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 238,
           "wheelAngles": [
@@ -4407,7 +4444,7 @@
           "z": -54.81575499638903,
           "yaw": -0.8479680609486252,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 238,
           "wheelAngles": [
@@ -4501,6 +4538,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.6875
     },
     {
@@ -4515,7 +4554,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4534,7 +4573,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4553,7 +4592,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.375,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4572,7 +4611,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4591,7 +4630,7 @@
           "z": 87.60357194792661,
           "yaw": 0.6053519529353308,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 252,
           "wheelAngles": [
@@ -4610,7 +4649,7 @@
           "z": -26.410907925285635,
           "yaw": 1.2114288575734247,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 252,
           "wheelAngles": [
@@ -4629,7 +4668,7 @@
           "z": 26.083451933653,
           "yaw": 5.004576369091833,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 252,
           "wheelAngles": [
@@ -4648,7 +4687,7 @@
           "z": -44.569612007615206,
           "yaw": -0.9773123291867583,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 252,
           "wheelAngles": [
@@ -4742,6 +4781,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.375
     },
     {
@@ -4756,7 +4797,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4775,7 +4816,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4794,7 +4835,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0.0625,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4813,7 +4854,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -4832,7 +4873,7 @@
           "z": 78.61566543057656,
           "yaw": 0.7041484002594749,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 266,
           "wheelAngles": [
@@ -4851,7 +4892,7 @@
           "z": -38.014856040029784,
           "yaw": 1.0622985328028756,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 266,
           "wheelAngles": [
@@ -4870,7 +4911,7 @@
           "z": 40.28974214292199,
           "yaw": 5.162304414913512,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 266,
           "wheelAngles": [
@@ -4889,7 +4930,7 @@
           "z": -33.44520994054034,
           "yaw": -1.1208808922660576,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 266,
           "wheelAngles": [
@@ -4983,6 +5024,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0.0625
     },
     {
@@ -4997,7 +5040,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5016,7 +5059,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5035,7 +5078,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5054,7 +5097,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5073,7 +5116,7 @@
           "z": -66.68583639386375,
           "yaw": 3.976715882919556,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -490,
           "wheelAngles": [
@@ -5092,7 +5135,7 @@
           "z": 96.13328553684538,
           "yaw": 2.858389955111301,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 270,
           "wheelAngles": [
@@ -5111,7 +5154,7 @@
           "z": 95.45781199616206,
           "yaw": 5.770593116076147,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -310,
           "wheelAngles": [
@@ -5130,7 +5173,7 @@
           "z": 69.98942451255284,
           "yaw": -2.4800307162358655,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 90,
           "wheelAngles": [
@@ -5149,7 +5192,7 @@
           "z": 13.268209481489567,
           "yaw": 4.861315379544153,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -410,
           "wheelAngles": [
@@ -5243,6 +5286,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0
     },
     {
@@ -5257,7 +5302,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5276,7 +5321,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5295,7 +5340,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5314,7 +5359,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5333,7 +5378,7 @@
           "z": -28.702173939350807,
           "yaw": 4.3890248409793005,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -448.75,
           "wheelAngles": [
@@ -5352,7 +5397,7 @@
           "z": 89.7993933989949,
           "yaw": 2.7490458133746833,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 290,
           "wheelAngles": [
@@ -5371,7 +5416,7 @@
           "z": 111.8563695627255,
           "yaw": 6.00605490798293,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -268.75,
           "wheelAngles": [
@@ -5390,7 +5435,7 @@
           "z": 80.50317014886517,
           "yaw": -2.618578907801802,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 110,
           "wheelAngles": [
@@ -5409,7 +5454,7 @@
           "z": 54.50704621211279,
           "yaw": 5.31509548529703,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -368.75,
           "wheelAngles": [
@@ -5503,6 +5548,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0
     },
     {
@@ -5517,7 +5564,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5536,7 +5583,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5555,7 +5602,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5574,7 +5621,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5593,7 +5640,7 @@
           "z": 15.988481421561346,
           "yaw": 4.893501587341538,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -407.5,
           "wheelAngles": [
@@ -5612,7 +5659,7 @@
           "z": 81.5141939455267,
           "yaw": 2.6290004624863537,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 310,
           "wheelAngles": [
@@ -5631,7 +5678,7 @@
           "z": 119.34526092265631,
           "yaw": 6.20500708944601,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -227.5,
           "wheelAngles": [
@@ -5650,7 +5697,7 @@
           "z": 89.0148636264943,
           "yaw": -2.7361275319131106,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 130,
           "wheelAngles": [
@@ -5669,7 +5716,7 @@
           "z": 85.55310548957863,
           "yaw": 5.655599383778926,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -327.5,
           "wheelAngles": [
@@ -5763,6 +5810,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0
     },
     {
@@ -5777,7 +5826,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5796,7 +5845,7 @@
           "z": -28,
           "yaw": 0,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5815,7 +5864,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5834,7 +5883,7 @@
           "z": 20,
           "yaw": 3.141592653589793,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 0,
           "wheelAngles": [
@@ -5853,7 +5902,7 @@
           "z": 56.697197485330065,
           "yaw": 5.3379563041265135,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -366.25,
           "wheelAngles": [
@@ -5872,7 +5921,7 @@
           "z": 71.20653115592465,
           "yaw": 2.4952254074233653,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 330,
           "wheelAngles": [
@@ -5891,7 +5940,7 @@
           "z": 118.50877970140907,
           "yaw": 0.11538554413127633,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -186.25,
           "wheelAngles": [
@@ -5910,7 +5959,7 @@
           "z": 95.5527007675109,
           "yaw": -2.846194139276529,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 1,
           "rollMetres": 150,
           "wheelAngles": [
@@ -5929,7 +5978,7 @@
           "z": 106.04656010475139,
           "yaw": 5.913019909485627,
           "halfLength": 6.2,
-          "halfWidth": 3.8,
+          "halfWidth": 4,
           "payloadFraction": 0,
           "rollMetres": -286.25,
           "wheelAngles": [
@@ -6023,6 +6072,8 @@
           "halfWidth": 0.6
         }
       ],
+      "wheelGeometryOverlaps": [],
+      "surface": "unpaved",
       "heroPayload": 0
     }
   ],

@@ -7,3 +7,5 @@
 
 /* Text-free capture mode; scene labels are also hidden by the cinematic API. */
 body.clean > :not(#viewport){display:none!important}
+
+.surface-toggle{display:flex;align-items:center;gap:9px;margin:14px 0 6px;cursor:pointer}.surface-toggle input{width:18px;height:18px;margin:0;accent-color:#b9c999}

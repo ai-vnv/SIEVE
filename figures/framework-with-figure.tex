@@ -1,0 +1,78 @@
+% Includable figure; compile figures/framework-standalone.tex from the project root.
+% Paths are explicit so the same source works in the manuscript and Overleaf.
+\begingroup
+\newsavebox{\sieveImageBox}
+\newcommand{\sieveInset}[2]{%
+  \sbox{\sieveImageBox}{\includegraphics[width=#1]{#2}}%
+  \begin{tikzpicture}[baseline=(current bounding box.south)]
+    \clip[rounded corners=1.5pt] (0,0) rectangle (\wd\sieveImageBox,\ht\sieveImageBox);
+    \node[anchor=south west,inner sep=0pt,outer sep=0pt,text width={},minimum width=0pt,minimum height=0pt] at (0,0) {\usebox{\sieveImageBox}};
+  \end{tikzpicture}%
+}
+\begin{tikzpicture}[
+  >=Latex, font=\rmfamily\fontsize{9}{10.5}\selectfont,
+  box/.style={draw=blue!35!black, fill=blue!2, rounded corners=2pt,
+    line width=.65pt, text width=3.6cm, minimum height=2.8cm,
+    inner sep=5pt, align=center},
+  evidence/.style={box,draw=orange!45!black,fill=orange!4},
+  physical/.style={box,draw=black!50,fill=black!2,dashed},
+  flow/.style={->,line width=.75pt,draw=black!75},
+  proposed/.style={flow,dashed},
+  tag/.style={font=\rmfamily\fontsize{9}{10}\selectfont,fill=white,inner sep=1.5pt}
+]
+\node[box] (spec) at (0,0) {\textbf{Samples + specification}\\[4pt]
+  Source and conditions\\Units and requirements\\[5pt]Clearance $\geq 5$ m\\[5pt]
+  \CalibrationSamples{} calibration samples};
+\node[box] (sim) at (4.35,0) {\textbf{$E_0$: simulation}\\[3pt]
+  Nominal / extended scope\\[4pt]
+  \sieveInset{1.68cm}{figures/mine-nominal.jpg}\hfill
+  \sieveInset{1.68cm}{figures/mine-extreme-dust.jpg}\\[2pt]
+  Stress tests and haul cycles};
+\node[evidence] (ledger) at (8.7,0) {\textbf{Evidence ledger}\\[3pt]
+  Trace, verdict, model hash\\[4pt]
+  \sieveInset{1.68cm}{figures/mine-guarded.jpg}\hfill
+  \sieveInset{1.68cm}{figures/mine-driver.jpg}\\[2pt]
+  Scenario-linked replay};
+\node[evidence] (human) at (13.05,0) {\textbf{Human verifier}\\[4pt]
+  Review failure cases\\Assess uncertainty\\[5pt]
+  Approve physical tests};
+\node[box] (calib) at (0,-3.95) {\textbf{Calibration + training}\\[3pt]
+  Versioned speed envelope\\[4pt]
+  \sieveInset{2.2cm}{figures/mine-loading.jpg}\\[2pt]
+  Loading context};
+\node[box] (revise) at (4.35,-3.95) {\textbf{Integrated revision}\\[3pt]
+  Controller and planner\\Deployment orchestrator\\[4pt]
+  \sieveInset{2.2cm}{figures/mine-operations.jpg}\\[2pt]
+  \ValidationRuns{} validation tests};
+\node[physical] (ground) at (8.7,-3.95) {\textbf{$E_1$: controlled ground}\\[5pt]
+  Braking tests\\Detection tests\\[5pt]
+  Physical evidence\\pending};
+\node[physical] (field) at (13.05,-3.95) {\textbf{$E_2$: supervised field}\\[5pt]
+  Site-specific testing\\[5pt]
+  Physical evidence\\pending};
+\node[draw=red!45!black,fill=red!3,rounded corners=2pt,
+  text width=7.7cm,align=center,inner sep=5pt] (release) at (10.875,-6.15)
+  {\textbf{Release blocked}\\Physical confirmation and signed approval are missing};
+\draw[flow] (spec) -- (sim);
+\draw[flow] (sim) -- (ledger);
+\draw[flow] (ledger) -- (human);
+\draw[flow] (calib) -- (spec);
+\draw[flow] (revise) -- (sim);
+\node[tag,anchor=east] at (4.10,-1.88) {revise};
+\draw[flow] ([xshift=5mm]ledger.south west) -- ++(0,-.55)
+  -| ([xshift=8mm]revise.north);
+\node[tag,anchor=south] at (6.15,-1.90) {discrepancy};
+\draw[proposed] (ledger) -- (ground);
+\draw[proposed] (human) -- node[tag,right] {approval} (field);
+\draw[proposed] (ground) -- (field);
+% Physical measurements inform revision, rather than being claimed as completed tests.
+\draw[proposed] (ground.west) -- (revise.east);
+
+\draw[proposed] (ground.south) -- (ground.south |- release.north);
+\draw[proposed] (field.south) -- (field.south |- release.north);
+\draw[flow] (-1.65,-5.95) -- (-.75,-5.95);
+\node[anchor=west,font=\rmfamily\fontsize{10}{11}\selectfont] at (-.6,-5.95) {Implemented simulation workflow};
+\draw[proposed] (-1.65,-6.35) -- (-.75,-6.35);
+\node[anchor=west,font=\rmfamily\fontsize{10}{11}\selectfont] at (-.6,-6.35) {Proposed physical confirmation};
+\end{tikzpicture}
+\endgroup

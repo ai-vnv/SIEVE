@@ -12,6 +12,16 @@ await page.goto('http://127.0.0.1:8766/simulator/?paused');await page.waitForFun
 const downloadPromise=page.waitForEvent('download');await page.click('#export');const download=await downloadPromise;await download.saveAs('results/browser-evidence.json');
 for(const view of ['driver','left','right','follow','overview','top','field','loading','unloading','operations','passing']){await page.click(`[data-view="${view}"]`);await page.waitForTimeout(250);}
 await page.click('[data-view="top"]');await page.click('#shift');await page.waitForSelector('#shiftCards article');if(await page.locator('#shiftCards article').count()!==4)throw Error('Shift dashboard failed');await page.click('#closeShift');await page.click('#overlay');if(await page.locator('#overlay').getAttribute('aria-pressed')!=='false')throw Error('Overlay toggle failed');
+// Switching surface preserves the selected encounter and paused replay position.
+await page.goto('http://127.0.0.1:8766/simulator/?paused&family=wet&policy=guarded&seed=27021&view=follow&t=8');await page.waitForFunction(()=>window.sieve?.ready);
+const before=await page.evaluate(()=>({surface:window.sieve.surface,playback:window.sieve.playback,result:{seed:window.sieve.result.seed,family:window.sieve.result.family,policy:window.sieve.result.policy,layer:window.sieve.result.layer,minGap:window.sieve.result.minGap}}));
+if(before.surface!=='unpaved'||await page.locator('#paved').isChecked())throw Error('Unpaved default failed');
+await page.locator('#paved').check();await page.waitForURL(/surface=paved/);await page.waitForFunction(()=>window.sieve?.ready);
+const after=await page.evaluate(()=>({surface:window.sieve.surface,playback:window.sieve.playback,result:{seed:window.sieve.result.seed,family:window.sieve.result.family,policy:window.sieve.result.policy,layer:window.sieve.result.layer,minGap:window.sieve.result.minGap}}));
+if(after.surface!=='paved'||JSON.stringify(before.result)!==JSON.stringify(after.result)||JSON.stringify(before.playback)!==JSON.stringify(after.playback))throw Error('Paved toggle changed encounter/replay state');
+await page.locator('#paved').uncheck();await page.waitForURL(url=>!url.searchParams.has('surface'));await page.waitForFunction(()=>window.sieve?.ready);
+if(await page.evaluate(()=>window.sieve.surface)!=='unpaved')throw Error('Return to unpaved failed');
+const surfaceChecks={default:'unpaved',pavedOptIn:true,preservesEncounter:true,preservesPausedReplay:true};
 if(previous){for(let i=0;i<previous.manifest.length;i++){if(!manifest.some(x=>x.file===previous.manifest[i].file)){manifest.push(previous.manifest[i]);diagnostics.push(previous.renderDiagnostics[i]);}}errors.push(...previous.browserErrors);}
-fs.writeFileSync('results/screenshots.json',JSON.stringify({viewport:{width:1600,height:1000,scale:1.5},manifest,browserErrors:errors,renderDiagnostics:diagnostics},null,2));
+fs.writeFileSync('results/screenshots.json',JSON.stringify({viewport:{width:1600,height:1000,scale:1.5},manifest,surfaceChecks,browserErrors:errors,renderDiagnostics:diagnostics},null,2));
 await browser.close();const {execFileSync}=await import('node:child_process');execFileSync('python3',['scripts/image_formats.py']);if(errors.length)throw Error(errors.join('\n'));console.log(`${only||'Fifteen screenshots'} and interaction/export checks passed.`);

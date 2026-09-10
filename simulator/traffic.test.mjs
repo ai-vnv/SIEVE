@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {cinematicTraffic,intersect,overlapPairs,wheelAngle,payloadFraction} from './traffic.mjs';
+import {cinematicTraffic,intersect,overlapPairs,wheelAngle,payloadFraction,WHEEL_LAYOUT,WHEEL_ENVELOPE,wheelIntersections} from './traffic.mjs';
 const truck=(id,x,z,yaw=0)=>({id,x,z,yaw,halfLength:6.2,halfWidth:3.8,kind:'truck'});
 test('footprints detect same-lane interpenetration and head-on contact',()=>{assert(intersect(truck('a',0,0),truck('b',10,0,Math.PI)));assert.equal(overlapPairs([truck('a',0,0),truck('b',10,0)]).length,1);});
 test('opposing lanes have physical separation and rotated footprints are checked',()=>{assert(!intersect(truck('a',0,8),truck('b',0,-8,Math.PI),.5));assert(intersect(truck('a',0,0,Math.PI/4),truck('b',5,3,-Math.PI/4)));});
@@ -8,3 +8,5 @@ test('return leg is empty and every phase is deterministic',()=>{assert.equal(ci
 
 test('wheel rotation follows traveled distance and remains fixed at a stop',()=>{assert.equal(wheelAngle(1.65),-1);assert(Math.abs(wheelAngle(0))<1e-12);assert.equal(wheelAngle(10)-wheelAngle(5),-5/1.65);assert.equal(wheelAngle(7),wheelAngle(7));});
 test('loading fills the bed before departure; loaded haul stays full and return stays empty',()=>{assert.equal(payloadFraction('loading',0),0);assert.equal(payloadFraction('loading',5.5),1);for(let t=6;t<14;t+=.1)assert.equal(payloadFraction('hauling',t),1);assert.equal(payloadFraction('unloading',14),1);assert.equal(payloadFraction('unloading',19.5),0);assert.equal(payloadFraction('return',22),0);});
+
+test('two-axle layout has separated rear duals and no intersecting tire envelopes',()=>{assert.equal(WHEEL_LAYOUT.length,6);assert.equal(new Set(WHEEL_LAYOUT.map(w=>w.x)).size,2);assert.deepEqual(wheelIntersections(),[]);assert(WHEEL_LAYOUT[3].z-WHEEL_LAYOUT[2].z>WHEEL_ENVELOPE.width+.1);assert(wheelIntersections([{x:-3.1,z:3},{x:-.9,z:3}]).length===1);});

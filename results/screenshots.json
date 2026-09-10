@@ -276,81 +276,87 @@
       }
     }
   ],
+  "surfaceChecks": {
+    "default": "unpaved",
+    "pavedOptIn": true,
+    "preservesEncounter": true,
+    "preservesPausedReplay": true
+  },
   "browserErrors": [],
   "renderDiagnostics": [
     {
-      "calls": 453,
-      "geometries": 409,
+      "calls": 452,
+      "geometries": 408,
       "textures": 19
     },
     {
-      "calls": 441,
-      "geometries": 409,
+      "calls": 440,
+      "geometries": 408,
       "textures": 7
     },
     {
-      "calls": 196,
-      "geometries": 409,
+      "calls": 195,
+      "geometries": 408,
       "textures": 7
     },
     {
-      "calls": 149,
-      "geometries": 386,
+      "calls": 148,
+      "geometries": 385,
       "textures": 7
     },
     {
-      "calls": 122,
-      "geometries": 381,
+      "calls": 121,
+      "geometries": 380,
       "textures": 7
     },
     {
-      "calls": 24,
-      "geometries": 384,
+      "calls": 23,
+      "geometries": 383,
       "textures": 5
     },
     {
-      "calls": 245,
-      "geometries": 384,
+      "calls": 244,
+      "geometries": 383,
       "textures": 5
     },
     {
       "calls": 109,
-      "geometries": 402,
+      "geometries": 401,
       "textures": 6
     },
     {
-      "calls": 134,
-      "geometries": 405,
+      "calls": 133,
+      "geometries": 404,
       "textures": 7
     },
     {
-      "calls": 128,
-      "geometries": 417,
+      "calls": 127,
+      "geometries": 416,
       "textures": 6
     },
     {
-      "calls": 399,
-      "geometries": 409,
+      "calls": 398,
+      "geometries": 408,
       "textures": 6
     },
     {
-      "calls": 151,
-      "geometries": 384,
+      "calls": 150,
+      "geometries": 383,
       "textures": 5
     },
     {
-      "calls": 121,
-      "geometries": 384,
+      "calls": 120,
+      "geometries": 383,
       "textures": 5
     },
     {
-      "calls": 375,
-      "geometries": 386,
+      "calls": 374,
+      "geometries": 385,
       "textures": 6
     },
     {
-      "calls": 289,
-      "geometries": 384,
+      "calls": 288,
+      "geometries": 383,
       "textures": 5
     }
   ]

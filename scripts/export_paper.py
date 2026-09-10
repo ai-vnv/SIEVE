@@ -5,7 +5,7 @@ p=argparse.ArgumentParser();p.add_argument('paper_directory');args=p.parse_args(
 root=Path(__file__).resolve().parents[1];dest=Path(args.paper_directory).resolve()
 assert (dest/'main.tex').is_file(),'Destination must be an existing SIEVE-paper checkout.'
 subprocess.run(['python3','scripts/check_assurance.py'],cwd=root,check=True)
-assets=['results/'+x for x in ['numbers.tex','haulage-numbers.tex','safety-table.tex','haulage-table.tex']]+['figures/'+x for x in ['framework.tex','mine-nominal.jpg','mine-extreme-dust.jpg','mine-field-crew.jpg','mine-loading.jpg','mine-passing.jpg','mine-unloading.jpg','calibration.pdf','productivity.pdf']]
+assets=['results/'+x for x in ['numbers.tex','haulage-numbers.tex','safety-table.tex','haulage-table.tex']]+['figures/'+x for x in ['framework.tex','framework-with-figure.tex','mine-guarded.jpg','mine-driver.jpg','mine-operations.jpg','mine-nominal.jpg','mine-extreme-dust.jpg','mine-field-crew.jpg','mine-loading.jpg','mine-passing.jpg','mine-unloading.jpg','calibration.pdf','productivity.pdf']]
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
 dirty=bool(subprocess.check_output(['git','status','--porcelain'],cwd=root,text=True).strip())
 hashes={}

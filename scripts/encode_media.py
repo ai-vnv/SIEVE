@@ -1,9 +1,9 @@
 """Encode small, silent MP4/GIFs; annotation values come from checked results."""
-import hashlib,json,subprocess
+import hashlib,json,subprocess,os
 from pathlib import Path
 
 def ff(*args):subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y',*args],check=True)
-media=Path('media');cache=Path('.media-cache');h=json.loads(Path('results/haulage-summary.json').read_text());by={r['policy']:r for r in h['summary']}
+media=Path(os.environ.get('SIEVE_MEDIA_DIR','media'));cache=Path(os.environ.get('SIEVE_MEDIA_CACHE','.media-cache')); h=json.loads(Path('results/haulage-summary.json').read_text());by={r['policy']:r for r in h['summary']}
 font=next((p for p in [Path('/System/Library/Fonts/Supplemental/Times New Roman.ttf'),Path('/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf')] if p.exists()),None)
 if font is None:raise RuntimeError('Install Times New Roman to reproduce the media typography.')
 ff('-framerate','20','-i',str(cache/'frames/%05d.jpg'),'-c:v','libx264','-preset','slow','-crf','26','-pix_fmt','yuv420p','-movflags','+faststart','-an',str(media/'haulage-clean.mp4'))
