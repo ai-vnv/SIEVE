@@ -1,0 +1,519 @@
+{
+  "sourceKind": "synthetic",
+  "samples": [
+    {
+      "sample_id": "S-nominal-0",
+      "family": "nominal",
+      "brake": 3.295796174951829,
+      "visibility": 100.33927242737263,
+      "latency": 0.25885939088184384,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-nominal-1",
+      "family": "nominal",
+      "brake": 3.09430386783788,
+      "visibility": 96.9970671646297,
+      "latency": 0.33086057258769874,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-nominal-2",
+      "family": "nominal",
+      "brake": 3.235329529386945,
+      "visibility": 102.90153768844903,
+      "latency": 0.4689481809968129,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-nominal-3",
+      "family": "nominal",
+      "brake": 3.182053106161766,
+      "visibility": 109.84003600198776,
+      "latency": 0.31936842706054447,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-nominal-4",
+      "family": "nominal",
+      "brake": 3.0142846326460133,
+      "visibility": 103.22812899947166,
+      "latency": 0.46432914012111726,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-nominal-5",
+      "family": "nominal",
+      "brake": 3.191001974057872,
+      "visibility": 109.110695309937,
+      "latency": 0.3350785412825644,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-nominal-6",
+      "family": "nominal",
+      "brake": 3.167731425992679,
+      "visibility": 94.84964101575315,
+      "latency": 0.23097018240951003,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-nominal-7",
+      "family": "nominal",
+      "brake": 3.1635039856657388,
+      "visibility": 100.50501845311373,
+      "latency": 0.3945347622269765,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-0",
+      "family": "dust",
+      "brake": 2.9964229483506646,
+      "visibility": 45.83883090689778,
+      "latency": 1.025649123918265,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-1",
+      "family": "dust",
+      "brake": 2.9966944989166224,
+      "visibility": 48.84965765569359,
+      "latency": 0.8235237123444676,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-2",
+      "family": "dust",
+      "brake": 3.2072160698240624,
+      "visibility": 50.277811794541776,
+      "latency": 0.9995132707990706,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-3",
+      "family": "dust",
+      "brake": 3.0549199580331337,
+      "visibility": 50.26731713488698,
+      "latency": 1.0931802603416145,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-4",
+      "family": "dust",
+      "brake": 3.1635209011030385,
+      "visibility": 56.701660722494125,
+      "latency": 1.272288603009656,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-5",
+      "family": "dust",
+      "brake": 3.2690476502408274,
+      "visibility": 46.57735694479197,
+      "latency": 1.187970007630065,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-6",
+      "family": "dust",
+      "brake": 2.999857187701855,
+      "visibility": 55.34303961135447,
+      "latency": 1.334672797145322,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-dust-7",
+      "family": "dust",
+      "brake": 3.1987485975492747,
+      "visibility": 46.759043576195836,
+      "latency": 0.8637020659632981,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-0",
+      "family": "wet",
+      "brake": 2.28782858006889,
+      "visibility": 98.36373687721789,
+      "latency": 0.23300014678388836,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-1",
+      "family": "wet",
+      "brake": 2.0653665042016653,
+      "visibility": 93.12961663585156,
+      "latency": 0.30427862557116897,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-2",
+      "family": "wet",
+      "brake": 2.158351545094047,
+      "visibility": 99.77120955940336,
+      "latency": 0.2583141516428441,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-3",
+      "family": "wet",
+      "brake": 2.1691634326009077,
+      "visibility": 93.72274278663099,
+      "latency": 0.2150301594985649,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-4",
+      "family": "wet",
+      "brake": 2.1675859383190983,
+      "visibility": 90.14793334994465,
+      "latency": 0.3795154122402892,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-5",
+      "family": "wet",
+      "brake": 1.9703438271651976,
+      "visibility": 102.28625465650111,
+      "latency": 0.3516431385651231,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-6",
+      "family": "wet",
+      "brake": 2.2291277937008998,
+      "visibility": 107.40923923440278,
+      "latency": 0.2451052316930145,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-wet-7",
+      "family": "wet",
+      "brake": 2.073832416010555,
+      "visibility": 97.2484389366582,
+      "latency": 0.28941349498927593,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-0",
+      "family": "combined",
+      "brake": 2.056615492119454,
+      "visibility": 50.29210616182536,
+      "latency": 1.067036080081016,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-1",
+      "family": "combined",
+      "brake": 2.207276392681524,
+      "visibility": 53.16629986092448,
+      "latency": 0.8741837723646313,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-2",
+      "family": "combined",
+      "brake": 2.1152749979752117,
+      "visibility": 56.74047387484461,
+      "latency": 0.990663330256939,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-3",
+      "family": "combined",
+      "brake": 2.127220530342311,
+      "visibility": 49.49502429738641,
+      "latency": 0.9456125253345817,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-4",
+      "family": "combined",
+      "brake": 2.1979098558076657,
+      "visibility": 42.28323061298579,
+      "latency": 1.2674595111515372,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-5",
+      "family": "combined",
+      "brake": 2.121524279832374,
+      "visibility": 51.34486416168511,
+      "latency": 1.2722292541060596,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-6",
+      "family": "combined",
+      "brake": 2.112999808951281,
+      "visibility": 59.32648639474064,
+      "latency": 0.9922787268180401,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    },
+    {
+      "sample_id": "S-combined-7",
+      "family": "combined",
+      "brake": 2.028326169704087,
+      "visibility": 54.92574964929372,
+      "latency": 1.2967294629197568,
+      "origin": "synthetic",
+      "source_id": "built-in-2027"
+    }
+  ],
+  "bounds": {
+    "nominal": {
+      "brakeMin": 3.0142846326460133,
+      "visibilityMin": 94.84964101575315,
+      "latencyMax": 0.4689481809968129,
+      "n": 8,
+      "origin": [
+        "synthetic"
+      ]
+    },
+    "dust": {
+      "brakeMin": 2.9964229483506646,
+      "visibilityMin": 45.83883090689778,
+      "latencyMax": 1.334672797145322,
+      "n": 8,
+      "origin": [
+        "synthetic"
+      ]
+    },
+    "wet": {
+      "brakeMin": 1.9703438271651976,
+      "visibilityMin": 90.14793334994465,
+      "latencyMax": 0.3795154122402892,
+      "n": 8,
+      "origin": [
+        "synthetic"
+      ]
+    },
+    "combined": {
+      "brakeMin": 2.028326169704087,
+      "visibilityMin": 42.28323061298579,
+      "latencyMax": 1.2967294629197568,
+      "n": 8,
+      "origin": [
+        "synthetic"
+      ]
+    }
+  },
+  "training": [
+    {
+      "family": "nominal",
+      "cap": 4,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "nominal",
+      "cap": 5,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "nominal",
+      "cap": 6,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "nominal",
+      "cap": 8,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "nominal",
+      "cap": 10,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "nominal",
+      "cap": 12,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "dust",
+      "cap": 4,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "dust",
+      "cap": 5,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "dust",
+      "cap": 6,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "dust",
+      "cap": 8,
+      "n": 250,
+      "failures": 22
+    },
+    {
+      "family": "dust",
+      "cap": 10,
+      "n": 250,
+      "failures": 83
+    },
+    {
+      "family": "dust",
+      "cap": 12,
+      "n": 250,
+      "failures": 169
+    },
+    {
+      "family": "wet",
+      "cap": 4,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "wet",
+      "cap": 5,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "wet",
+      "cap": 6,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "wet",
+      "cap": 8,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "wet",
+      "cap": 10,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "wet",
+      "cap": 12,
+      "n": 250,
+      "failures": 2
+    },
+    {
+      "family": "combined",
+      "cap": 4,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "combined",
+      "cap": 5,
+      "n": 250,
+      "failures": 0
+    },
+    {
+      "family": "combined",
+      "cap": 6,
+      "n": 250,
+      "failures": 8
+    },
+    {
+      "family": "combined",
+      "cap": 8,
+      "n": 250,
+      "failures": 83
+    },
+    {
+      "family": "combined",
+      "cap": 10,
+      "n": 250,
+      "failures": 192
+    },
+    {
+      "family": "combined",
+      "cap": 12,
+      "n": 250,
+      "failures": 242
+    }
+  ],
+  "trainedCaps": {
+    "nominal": 12,
+    "dust": 6,
+    "wet": 10,
+    "combined": 5
+  },
+  "validation": [
+    {
+      "family": "nominal",
+      "n": 1000,
+      "seedStart": 41000,
+      "fittedFailures": 0,
+      "selectedFailures": 0,
+      "selectedCap": 12
+    },
+    {
+      "family": "dust",
+      "n": 1000,
+      "seedStart": 41000,
+      "fittedFailures": 455,
+      "selectedFailures": 0,
+      "selectedCap": 6
+    },
+    {
+      "family": "wet",
+      "n": 1000,
+      "seedStart": 41000,
+      "fittedFailures": 6,
+      "selectedFailures": 0,
+      "selectedCap": 10
+    },
+    {
+      "family": "combined",
+      "n": 1000,
+      "seedStart": 41000,
+      "fittedFailures": 407,
+      "selectedFailures": 0,
+      "selectedCap": 5
+    }
+  ],
+  "method": "Largest candidate speed cap with zero observed clearance violations on 250 stress-test seeds per family; deployed with additional analytical envelope.",
+  "physicalValidation": false
+}

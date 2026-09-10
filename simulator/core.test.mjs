@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {Encounter,scenario,rng,FAMILIES} from './core.mjs';
+test('repeated seeded encounters are exactly reproducible',()=>{for(const f of FAMILIES){assert.deepEqual(new Encounter(scenario(27001,f)).run(),new Encounter(scenario(27001,f)).run());}});
+test('constant braking matches closed-form stopping distance',()=>{const s={...scenario(4),initialSpeed:10,brake:2,grade:0,gap:150};const m=new Encounter(s);m.braking=true;const x=m.s;m.run();assert.ok(Math.abs((m.s-x)-25)<1e-9);assert.equal(m.v,0);});
+test('nonpenetrating kinematics never reverse and time increases',()=>{for(const f of FAMILIES){const r=new Encounter(scenario(27100,f),'guarded').run();for(let i=1;i<r.trace.length;i++){assert.ok(r.trace[i].v>=0);assert.ok(r.trace[i].s>=r.trace[i-1].s);assert.ok(r.trace[i].t>r.trace[i-1].t);}}});
+test('occlusion delays detection by the specified interval within one step',()=>{const s={...scenario(27,'dust'),gap:40,visibility:50,latency:1.33};const m=new Encounter(s);m.run();const first=m.trace.find(r=>r.detected);assert.ok(first.t>=s.latency);assert.ok(first.t<=s.latency+2*s.dt);});
+test('same synthetic seed can pass nominal model and collide in extended model',()=>{const s=scenario(27000,'combined');assert.equal(new Encounter(s,'baseline','nominal-model').run().bufferViolation,false);assert.equal(new Encounter(s,'baseline').run().collision,true);assert.equal(new Encounter(s,'guarded').run().bufferViolation,false);});
+test('guarded controller retains a discoverable combined-condition counterexample',()=>{let fail;for(let seed=27000;seed<28000;seed++){const r=new Encounter(scenario(seed,'combined'),'guarded').run();if(r.collision){fail=r;break;}}assert.ok(fail);});
+test('invalid family and policy fail explicitly',()=>{assert.throws(()=>scenario(1,'bad'));assert.throws(()=>new Encounter(scenario(1),'bad'));});
+test('visualization uses the engine without Math.random',async()=>{const fs=await import('node:fs');const text=fs.readFileSync('simulator/app.mjs','utf8');assert.ok(text.includes("from './core.mjs'"));assert.ok(!text.includes('Math.random'));});

@@ -1,0 +1,670 @@
+{
+  "metadata": {
+    "version": "sieve-1.1.0",
+    "seedStart": 27000,
+    "seedEnd": 27999,
+    "nPerCell": 1000,
+    "totalRuns": 32000,
+    "dt": 0.05,
+    "node": "v24.6.0",
+    "engineSHA256": "1e61305727a972ab82c4a2dd410dbdecf453e696f61db72d137812f1f4ee0e12"
+  },
+  "summary": [
+    {
+      "family": "nominal",
+      "policy": "baseline",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.303742344283645,
+      "meanStopTime": 13.693250000000031
+    },
+    {
+      "family": "nominal",
+      "policy": "baseline",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 44,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0.03293821458841875,
+        0.05855178915040732
+      ],
+      "meanMinGap": 8.153058461540779,
+      "meanStopTime": 13.718500000000024
+    },
+    {
+      "family": "nominal",
+      "policy": "guarded",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 46.70007256290672,
+      "meanStopTime": 10.488900000000038
+    },
+    {
+      "family": "nominal",
+      "policy": "guarded",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 46.16222143325718,
+      "meanStopTime": 10.546299999999993
+    },
+    {
+      "family": "nominal",
+      "policy": "no-speed-cap",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 46.70007256290672,
+      "meanStopTime": 10.488900000000038
+    },
+    {
+      "family": "nominal",
+      "policy": "no-speed-cap",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 46.16222143325718,
+      "meanStopTime": 10.546299999999993
+    },
+    {
+      "family": "nominal",
+      "policy": "no-brake-bound",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.303742344283645,
+      "meanStopTime": 13.693250000000031
+    },
+    {
+      "family": "nominal",
+      "policy": "no-brake-bound",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 44,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0.03293821458841875,
+        0.05855178915040732
+      ],
+      "meanMinGap": 8.153058461540779,
+      "meanStopTime": 13.718500000000024
+    },
+    {
+      "family": "dust",
+      "policy": "baseline",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.303742344283645,
+      "meanStopTime": 13.693250000000031
+    },
+    {
+      "family": "dust",
+      "policy": "baseline",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 549,
+      "violations": 679,
+      "collisionCI": [
+        0.5180304041955385,
+        0.5795945734728772
+      ],
+      "violationCI": [
+        0.6494265062245336,
+        0.7072035142376379
+      ],
+      "meanMinGap": 2.7718069025717487,
+      "meanStopTime": 13.161850000000012
+    },
+    {
+      "family": "dust",
+      "policy": "guarded",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 17.867501852097472,
+      "meanStopTime": 21.008300000000116
+    },
+    {
+      "family": "dust",
+      "policy": "guarded",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 17.007768659027903,
+      "meanStopTime": 21.156050000000135
+    },
+    {
+      "family": "dust",
+      "policy": "no-speed-cap",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 46.70007256290672,
+      "meanStopTime": 10.488900000000038
+    },
+    {
+      "family": "dust",
+      "policy": "no-speed-cap",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 549,
+      "violations": 675,
+      "collisionCI": [
+        0.5180304041955385,
+        0.5795945734728772
+      ],
+      "violationCI": [
+        0.6453485364754675,
+        0.7033120980545883
+      ],
+      "meanMinGap": 4.275499472791929,
+      "meanStopTime": 13.036450000000023
+    },
+    {
+      "family": "dust",
+      "policy": "no-brake-bound",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.146902173464625,
+      "meanStopTime": 22.628400000000084
+    },
+    {
+      "family": "dust",
+      "policy": "no-brake-bound",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.107968936255661,
+      "meanStopTime": 22.639350000000146
+    },
+    {
+      "family": "wet",
+      "policy": "baseline",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.303742344283645,
+      "meanStopTime": 13.693250000000031
+    },
+    {
+      "family": "wet",
+      "policy": "baseline",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 998,
+      "violations": 1000,
+      "collisionCI": [
+        0.9927371921365081,
+        0.9994513564118793
+      ],
+      "violationCI": [
+        0.9961732415144451,
+        1
+      ],
+      "meanMinGap": -0.14178956649882002,
+      "meanStopTime": 13.15390000000002
+    },
+    {
+      "family": "wet",
+      "policy": "guarded",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 17.867501852097472,
+      "meanStopTime": 21.008300000000116
+    },
+    {
+      "family": "wet",
+      "policy": "guarded",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 12.366409466002915,
+      "meanStopTime": 22.453200000000145
+    },
+    {
+      "family": "wet",
+      "policy": "no-speed-cap",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 46.70007256290672,
+      "meanStopTime": 10.488900000000038
+    },
+    {
+      "family": "wet",
+      "policy": "no-speed-cap",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 1,
+      "violations": 3,
+      "collisionCI": [
+        0.0001765463706260846,
+        0.005642558597957719
+      ],
+      "violationCI": [
+        0.0010207838811386468,
+        0.008783014053502937
+      ],
+      "meanMinGap": 24.532343045965398,
+      "meanStopTime": 14.169050000000022
+    },
+    {
+      "family": "wet",
+      "policy": "no-brake-bound",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.146902173464625,
+      "meanStopTime": 22.628400000000084
+    },
+    {
+      "family": "wet",
+      "policy": "no-brake-bound",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 147,
+      "violations": 852,
+      "collisionCI": [
+        0.12640395855176717,
+        0.1702977329390346
+      ],
+      "violationCI": [
+        0.8286449507026356,
+        0.8726610113235337
+      ],
+      "meanMinGap": 2.88226142083348,
+      "meanStopTime": 23.83400000000014
+    },
+    {
+      "family": "combined",
+      "policy": "baseline",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.303742344283645,
+      "meanStopTime": 13.693250000000031
+    },
+    {
+      "family": "combined",
+      "policy": "baseline",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 1000,
+      "violations": 1000,
+      "collisionCI": [
+        0.9961732415144451,
+        1
+      ],
+      "violationCI": [
+        0.9961732415144451,
+        1
+      ],
+      "meanMinGap": -0.20547286174064033,
+      "meanStopTime": 12.605350000000014
+    },
+    {
+      "family": "combined",
+      "policy": "guarded",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 17.867501852097472,
+      "meanStopTime": 21.008300000000116
+    },
+    {
+      "family": "combined",
+      "policy": "guarded",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 1,
+      "violations": 35,
+      "collisionCI": [
+        0.0001765463706260846,
+        0.005642558597957719
+      ],
+      "violationCI": [
+        0.025272263017113168,
+        0.04828662237445291
+      ],
+      "meanMinGap": 11.540247901087922,
+      "meanStopTime": 22.58900000000015
+    },
+    {
+      "family": "combined",
+      "policy": "no-speed-cap",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 46.70007256290672,
+      "meanStopTime": 10.488900000000038
+    },
+    {
+      "family": "combined",
+      "policy": "no-speed-cap",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 931,
+      "violations": 977,
+      "collisionCI": [
+        0.9135852797713634,
+        0.9451160544140885
+      ],
+      "violationCI": [
+        0.9657235493377737,
+        0.9846257230670069
+      ],
+      "meanMinGap": 0.10271276937456741,
+      "meanStopTime": 12.804350000000012
+    },
+    {
+      "family": "combined",
+      "policy": "no-brake-bound",
+      "layer": "nominal-model",
+      "n": 1000,
+      "collisions": 0,
+      "violations": 0,
+      "collisionCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "violationCI": [
+        0,
+        0.0038267584855549135
+      ],
+      "meanMinGap": 8.146902173464625,
+      "meanStopTime": 22.628400000000084
+    },
+    {
+      "family": "combined",
+      "policy": "no-brake-bound",
+      "layer": "extended-model",
+      "n": 1000,
+      "collisions": 147,
+      "violations": 853,
+      "collisionCI": [
+        0.12640395855176717,
+        0.1702977329390346
+      ],
+      "violationCI": [
+        0.8297022670609654,
+        0.8735960414482328
+      ],
+      "meanMinGap": 2.879561420833483,
+      "meanStopTime": 23.834450000000142
+    }
+  ],
+  "discordance": [
+    {
+      "family": "nominal",
+      "masked": 44,
+      "n": 1000
+    },
+    {
+      "family": "dust",
+      "masked": 679,
+      "n": 1000
+    },
+    {
+      "family": "wet",
+      "masked": 1000,
+      "n": 1000
+    },
+    {
+      "family": "combined",
+      "masked": 1000,
+      "n": 1000
+    }
+  ],
+  "convergence": [
+    {
+      "family": "nominal",
+      "policy": "baseline",
+      "n": 100,
+      "changed": 1,
+      "maxGapDelta": 0.5917687121734616
+    },
+    {
+      "family": "nominal",
+      "policy": "guarded",
+      "n": 100,
+      "changed": 0,
+      "maxGapDelta": 0.6144616498771711
+    },
+    {
+      "family": "dust",
+      "policy": "baseline",
+      "n": 100,
+      "changed": 0,
+      "maxGapDelta": 0.6085619972154177
+    },
+    {
+      "family": "dust",
+      "policy": "guarded",
+      "n": 100,
+      "changed": 0,
+      "maxGapDelta": 0.27757381384134305
+    },
+    {
+      "family": "wet",
+      "policy": "baseline",
+      "n": 100,
+      "changed": 0,
+      "maxGapDelta": 0.2918105087599656
+    },
+    {
+      "family": "wet",
+      "policy": "guarded",
+      "n": 100,
+      "changed": 0,
+      "maxGapDelta": 0.17057244292487894
+    },
+    {
+      "family": "combined",
+      "policy": "baseline",
+      "n": 100,
+      "changed": 0,
+      "maxGapDelta": 0
+    },
+    {
+      "family": "combined",
+      "policy": "guarded",
+      "n": 100,
+      "changed": 0,
+      "maxGapDelta": 0.28892828459066777
+    }
+  ]
+}

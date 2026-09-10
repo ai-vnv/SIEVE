@@ -1,0 +1,31 @@
+{
+  "name": "sieve-mine-simulator",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8766 --bind 127.0.0.1",
+    "experiment": "bash scripts/experiments.sh",
+    "test": "node --test simulator/core.test.mjs simulator/haulage.test.mjs simulator/traffic.test.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "reproduce": "bash scripts/reproduce.sh",
+    "media": "node scripts/media.mjs",
+    "export:paper": "python3 scripts/export_paper.py ../SIEVE-paper"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  },
+  "description": "Staged Integration of Evidence across Verification Environments: autonomous mining simulator and reproducible safety\u2013productivity experiments",
+  "license": "MIT",
+  "author": "mansurarief",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mansurarief/SIEVE.git"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

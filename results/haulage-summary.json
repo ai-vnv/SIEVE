@@ -1,0 +1,399 @@
+{
+  "config": {
+    "trucks": 6,
+    "shiftSeconds": 28800,
+    "legMetres": 3000,
+    "payloadTonnes": 240,
+    "ackSeconds": 45,
+    "recoverySeconds": 1800,
+    "hazardProbability": 0.1,
+    "obstacleHoldSeconds": 45
+  },
+  "n": 200,
+  "seedStart": 51000,
+  "seedEnd": 51199,
+  "summary": [
+    {
+      "policy": "fast",
+      "n": 200,
+      "throughputTph": {
+        "mean": 3652.95,
+        "ci": [
+          3643.9948403303038,
+          3661.905159669696
+        ]
+      },
+      "meanCycleMin": {
+        "mean": 21.006522471314405,
+        "ci": [
+          20.935407006602567,
+          21.077637936026242
+        ]
+      },
+      "averageMovingKph": {
+        "mean": 43.082525214334765,
+        "ci": [
+          43.0787329505965,
+          43.08631747807303
+        ]
+      },
+      "shiftAverageKph": {
+        "mean": 15.266469062843276,
+        "ci": [
+          15.237478582306675,
+          15.295459543379877
+        ]
+      },
+      "queueMinPerTruck": {
+        "mean": 168.3457901451727,
+        "ci": [
+          166.84046271115577,
+          169.85111757918966
+        ]
+      },
+      "handoverMinPerTruck": {
+        "mean": 15.91965896694586,
+        "ci": [
+          15.906900139338566,
+          15.932417794553155
+        ]
+      },
+      "recoveryMinPerTruck": {
+        "mean": 39.33870088522765,
+        "ci": [
+          37.53928310669583,
+          41.13811866375948
+        ]
+      },
+      "movingUtilization": {
+        "mean": 0.35435374581612095,
+        "ci": [
+          0.3536850954834247,
+          0.3550223961488172
+        ]
+      },
+      "collisions": {
+        "mean": 8.08,
+        "ci": [
+          7.7121706692024485,
+          8.447829330797552
+        ]
+      },
+      "violations": {
+        "mean": 9.16,
+        "ci": [
+          8.765491010034221,
+          9.554508989965779
+        ]
+      },
+      "encounters": {
+        "mean": 24.345,
+        "ci": [
+          23.70323768718258,
+          24.98676231281742
+        ]
+      }
+    },
+    {
+      "policy": "blanket",
+      "n": 200,
+      "throughputTph": {
+        "mean": 2801.85,
+        "ci": [
+          2799.7158224457735,
+          2803.9841775542263
+        ]
+      },
+      "meanCycleMin": {
+        "mean": 30.686176755930145,
+        "ci": [
+          30.674804028958842,
+          30.697549482901447
+        ]
+      },
+      "averageMovingKph": {
+        "mean": 14.393533707849906,
+        "ci": [
+          14.393331617666856,
+          14.393735798032957
+        ]
+      },
+      "shiftAverageKph": {
+        "mean": 11.694719054909747,
+        "ci": [
+          11.690318626956113,
+          11.69911948286338
+        ]
+      },
+      "queueMinPerTruck": {
+        "mean": 11.859805419302964,
+        "ci": [
+          11.733687670540874,
+          11.985923168065053
+        ]
+      },
+      "handoverMinPerTruck": {
+        "mean": 12.014786017156885,
+        "ci": [
+          12.009690976086826,
+          12.019881058226943
+        ]
+      },
+      "recoveryMinPerTruck": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "movingUtilization": {
+        "mean": 0.8124980050549176,
+        "ci": [
+          0.8121984398994311,
+          0.8127975702104042
+        ]
+      },
+      "collisions": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "violations": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "encounters": {
+        "mean": 18.235,
+        "ci": [
+          17.66510749888057,
+          18.80489250111943
+        ]
+      }
+    },
+    {
+      "policy": "context",
+      "n": 200,
+      "throughputTph": {
+        "mean": 3684.6,
+        "ci": [
+          3678.687568513444,
+          3690.5124314865557
+        ]
+      },
+      "meanCycleMin": {
+        "mean": 23.160682977981313,
+        "ci": [
+          23.126652962698472,
+          23.194712993264154
+        ]
+      },
+      "averageMovingKph": {
+        "mean": 29.36820902130741,
+        "ci": [
+          29.24938142040143,
+          29.48703662221339
+        ]
+      },
+      "shiftAverageKph": {
+        "mean": 15.385000696863381,
+        "ci": [
+          15.363654262747048,
+          15.406347130979714
+        ]
+      },
+      "queueMinPerTruck": {
+        "mean": 126.45259218351475,
+        "ci": [
+          125.58397475181692,
+          127.32120961521258
+        ]
+      },
+      "handoverMinPerTruck": {
+        "mean": 15.62734362264768,
+        "ci": [
+          15.606863329416177,
+          15.647823915879185
+        ]
+      },
+      "recoveryMinPerTruck": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "movingUtilization": {
+        "mean": 0.5242291434584536,
+        "ci": [
+          0.5223653467521661,
+          0.5260929401647412
+        ]
+      },
+      "collisions": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "violations": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "encounters": {
+        "mean": 24.22,
+        "ci": [
+          23.561026370867953,
+          24.878973629132044
+        ]
+      }
+    },
+    {
+      "policy": "coordinated",
+      "n": 200,
+      "throughputTph": {
+        "mean": 4174.05,
+        "ci": [
+          4164.46220963503,
+          4183.63779036497
+        ]
+      },
+      "meanCycleMin": {
+        "mean": 20.527255086510337,
+        "ci": [
+          20.483768309853584,
+          20.57074186316709
+        ]
+      },
+      "averageMovingKph": {
+        "mean": 29.37689234800375,
+        "ci": [
+          29.266240456991795,
+          29.487544239015705
+        ]
+      },
+      "shiftAverageKph": {
+        "mean": 17.430099784070038,
+        "ci": [
+          17.393939533295647,
+          17.466260034844428
+        ]
+      },
+      "queueMinPerTruck": {
+        "mean": 97.48126796010916,
+        "ci": [
+          96.8085756448098,
+          98.15396027540852
+        ]
+      },
+      "handoverMinPerTruck": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "recoveryMinPerTruck": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "movingUtilization": {
+        "mean": 0.5935751945091206,
+        "ci": [
+          0.5920657345698692,
+          0.5950846544483719
+        ]
+      },
+      "collisions": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "violations": {
+        "mean": 0,
+        "ci": [
+          0,
+          0
+        ]
+      },
+      "encounters": {
+        "mean": 27.28,
+        "ci": [
+          26.58438374129924,
+          27.97561625870076
+        ]
+      }
+    }
+  ],
+  "validation": [
+    {
+      "family": "nominal",
+      "n": 1000,
+      "seedStart": 41000,
+      "seedEnd": 41999,
+      "collisions": 0,
+      "violations": 0,
+      "unfinished": 0
+    },
+    {
+      "family": "dust",
+      "n": 1000,
+      "seedStart": 41000,
+      "seedEnd": 41999,
+      "collisions": 0,
+      "violations": 0,
+      "unfinished": 0
+    },
+    {
+      "family": "wet",
+      "n": 1000,
+      "seedStart": 41000,
+      "seedEnd": 41999,
+      "collisions": 0,
+      "violations": 0,
+      "unfinished": 0
+    },
+    {
+      "family": "combined",
+      "n": 1000,
+      "seedStart": 41000,
+      "seedEnd": 41999,
+      "collisions": 0,
+      "violations": 0,
+      "unfinished": 0
+    }
+  ],
+  "sensitivity": [
+    {
+      "ackSeconds": 0,
+      "context": 4167,
+      "coordinated": 4167,
+      "gainPct": 0
+    },
+    {
+      "ackSeconds": 30,
+      "context": 3869.4,
+      "coordinated": 4167,
+      "gainPct": 7.691114901535112
+    },
+    {
+      "ackSeconds": 60,
+      "context": 3494.4,
+      "coordinated": 4167,
+      "gainPct": 19.247939560439555
+    }
+  ]
+}

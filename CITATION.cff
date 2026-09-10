@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this research software and the companion manuscript when using SIEVE."
+title: "SIEVE: Staged Integration of Evidence across Verification Environments"
+type: software
+authors:
+  - family-names: Arief
+    given-names: Mansur M.
+version: 1.1.0
+date-released: 2026-09-10
+license: MIT
+repository-code: "https://github.com/mansurarief/SIEVE"
+url: "https://github.com/mansurarief/SIEVE-paper"

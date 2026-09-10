@@ -1,0 +1,22 @@
+\begin{tikzpicture}[
+font=\small,box/.style={draw=black!50,rounded corners=2pt,align=center,minimum height=13mm,text width=34mm,inner sep=4pt},
+a/.style={-{Stealth[length=2mm]},draw=black!65,line width=.65pt},future/.style={a,dashed},lab/.style={font=\footnotesize,fill=white,inner sep=1.5pt}]
+\node[box,fill=blue!6] (spec) at (0,0) {\textbf{Samples + specification}\\Source, conditions, units\\Clearance $\geq5$ m};
+\node[box,fill=teal!8] (sim) at (4.3,0) {\textbf{$E_0$: simulation}\\Nominal / extended scope\\Stress tests + haul cycles};
+\node[box,fill=brown!9] (ledger) at (8.6,0) {\textbf{Evidence ledger}\\Trace, verdict, model hash\\Replay in 3D};
+\node[box,fill=black!4] (human) at (12.9,0) {\textbf{Human verifier}\\Review counterexamples\\Approve physical exposure};
+\node[box,fill=black!3] (agent) at (0,-2.0) {\textbf{Calibration + training}\\\CalibrationSamples{} samples; stress selection\\Versioned speed envelope};
+\node[box,fill=blue!6] (update) at (4.3,-2.0) {\textbf{Integrated revision}\\Controller, planner, dispatch\\\ValidationRuns{} validation tests};
+\node[box,dashed,fill=orange!4] (ground) at (8.6,-2.0) {\textbf{$E_1$: controlled ground}\\Braking and detection tests\\Physical evidence pending};
+\node[box,dashed,fill=orange!4] (field) at (12.9,-2.0) {\textbf{$E_2$: supervised field}\\Site-specific testing\\Physical evidence pending};
+\node[box,fill=brown!7,text width=67mm,minimum height=10mm] (release) at (10.75,-3.9) {\textbf{Release blocked}\\No physical confirmation or signed human approval};
+\draw[a](spec)--(sim);\draw[a](sim)--(ledger);\draw[a](ledger)--(human);
+\draw[a](agent)--(spec);\draw[a](update)--node[lab,right]{revise}(sim);
+\draw[a](ledger.south west)--node[lab,above,sloped]{discrepancy}(update.north east);
+\draw[future](ground)--node[lab,above]{calibrate}(update);
+\draw[future](ground.north)--(ledger.south);
+\draw[future](human.south)--node[lab,right]{approval}(field.north);
+\draw[future](ground)--(field);\draw[future](field.south)--++(0,-.4)-|(release.north);
+\draw[a](human.east)--++(.4,0)|-(release.east);
+\node[anchor=west,align=left,font=\small,text=black!70] at (-1.8,-3.9) {Solid: implemented simulation workflow\\Dashed: proposed physical workflow};
+\end{tikzpicture}

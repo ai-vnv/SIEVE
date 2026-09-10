@@ -1,0 +1,3971 @@
+{
+  "width": 960,
+  "height": 540,
+  "fps": 20,
+  "duration": 24,
+  "visualSeed": 2027,
+  "evidenceKind": "synthetic illustrative animation",
+  "numericalTrace": false,
+  "stages": [
+    {
+      "phase": "loading",
+      "illustrative": true,
+      "time": 0,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -132.51986588381072,
+          "z": 70.00724409909155,
+          "yaw": 5.4860036716918135,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": 10.638097679808242,
+          "z": 103.72551306433822,
+          "yaw": -3.089053499288674,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 17.41812416667641,
+          "z": -119.31607259881089,
+          "yaw": 3.063414435856222,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -86.2999787666709,
+          "z": -84.09226400910846,
+          "yaw": 0.4749615092262113,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "loading",
+      "illustrative": true,
+      "time": 1,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -121.5741897323433,
+          "z": 80.06025999689214,
+          "yaw": 5.594660965635139,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -2.8346212615585955,
+          "z": 103.98042254545079,
+          "yaw": 3.1288229643786156,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 2.9126778369931148,
+          "z": -119.9807303413995,
+          "yaw": 3.1288229643786165,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -74.20053338790275,
+          "z": -89.70279125401623,
+          "yaw": 0.392546840215118,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "loading",
+      "illustrative": true,
+      "time": 2,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -109.70655644286708,
+          "z": 88.86378438996458,
+          "yaw": 5.692476572566077,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -16.294423999958166,
+          "z": 103.35508139120154,
+          "yaw": 3.0634144358562163,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -11.604426430609628,
+          "z": -119.69680453182576,
+          "yaw": 3.19413180789091,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -61.64468785816982,
+          "z": -94.35976559179493,
+          "yaw": 0.3169133005606855,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "loading",
+      "illustrative": true,
+      "time": 3,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -97.0971187135283,
+          "z": 96.47826193654284,
+          "yaw": 5.784381145111451,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -29.678916615529428,
+          "z": 101.84537983516073,
+          "yaw": 2.9973947495735724,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -26.074949415337528,
+          "z": -118.4619694321165,
+          "yaw": 3.259851049676003,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -48.756544271559605,
+          "z": -98.07850805294106,
+          "yaw": 0.2440192005801588,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "loading",
+      "illustrative": true,
+      "time": 4,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -83.93307706242163,
+          "z": 102.93994335491077,
+          "yaw": 5.867967563110611,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -42.899506051571315,
+          "z": 99.44591540230948,
+          "yaw": 2.9272906678449493,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -40.43850212008173,
+          "z": -116.26624767858581,
+          "yaw": 3.3264964372602015,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -35.59839436191911,
+          "z": -100.88571831521446,
+          "yaw": 0.17613988139140835,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "loading",
+      "illustrative": true,
+      "time": 5,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -70.34406617498229,
+          "z": 108.30232170853108,
+          "yaw": 5.944524338759458,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -55.93103614539665,
+          "z": 96.13328553684538,
+          "yaw": 2.858389955111301,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -54.65289519414989,
+          "z": -113.08578423325538,
+          "yaw": 3.3975981326594673,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -22.268554296301765,
+          "z": -102.79234882598676,
+          "yaw": 0.10964491569552959,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 6,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -132.51986588381072,
+          "z": 70.00724409909155,
+          "yaw": 5.4860036716918135,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -73.96721471773625,
+          "z": 89.7993933989949,
+          "yaw": 2.7490458133746833,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 42.3475381693614,
+          "z": 115.89900649356089,
+          "yaw": 0.1936924003345175,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 92.87242698821416,
+          "z": 80.50317014886517,
+          "yaw": -2.618578907801802,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": 1.029075971549077,
+          "z": 103.99727457818301,
+          "yaw": -3.1373362787273176,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 7,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -116.59441857223068,
+          "z": 83.97896370049175,
+          "yaw": 5.636818061013159,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -92.65475321850701,
+          "z": 80.62867442152101,
+          "yaw": 2.6185789078017727,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 62.53280748477679,
+          "z": 110.85968000520286,
+          "yaw": 0.295398514313264,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 74.19936627558178,
+          "z": 89.70327447961304,
+          "yaw": -2.749045813374702,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -19.994854460592205,
+          "z": 103.02739333227821,
+          "yaw": 3.043409887000716,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 8,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -98.94427987553203,
+          "z": 95.45781199616206,
+          "yaw": 5.770593116076147,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -109.75502630554264,
+          "z": 69.04292541036122,
+          "yaw": 2.468533918346652,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 82.14293236264996,
+          "z": 103.7175681238935,
+          "yaw": 0.40546512167668247,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 54.41737638387118,
+          "z": 96.56911053751486,
+          "yaw": -2.864462254393164,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -40.79043336629775,
+          "z": 99.89149346351383,
+          "yaw": 2.939085730945057,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 9,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -80.08789911997795,
+          "z": 104.58239791256234,
+          "yaw": 5.890638466964477,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -124.6227918540337,
+          "z": 55.00229213212478,
+          "yaw": 2.293624592641201,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 100.86431920879394,
+          "z": 94.36425447638575,
+          "yaw": 0.5230137457879911,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 33.94173280195402,
+          "z": 101.1726962337358,
+          "yaw": -2.974193146168018,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -61.071647211349166,
+          "z": 94.54691252499777,
+          "yaw": 2.827766774009156,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 10,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -60.401951293638646,
+          "z": 111.49593237055278,
+          "yaw": 5.999982608701094,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -136.4195484642463,
+          "z": 38.603444511471224,
+          "yaw": 2.088910901198151,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 118.38029881848388,
+          "z": 82.6139624025037,
+          "yaw": 0.6615619373539277,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 13.04301975913191,
+          "z": 103.58712024989678,
+          "yaw": -3.077667932045762,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -80.52376879788022,
+          "z": 86.9207109154851,
+          "yaw": 2.706699567719469,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 11,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -40.1902803115727,
+          "z": 116.31267514937039,
+          "yaw": 6.098281523509154,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -144.15518099024018,
+          "z": 20.275300285029743,
+          "yaw": 1.8472929854338331,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 134.10490889674543,
+          "z": 68.34892814616244,
+          "yaw": 0.8181509944306469,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -8.00326272069893,
+          "z": 103.8446092339299,
+          "yaw": 3.1032683374480814,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -98.72116861222662,
+          "z": 76.93470305935057,
+          "yaw": 2.5689913495128067,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 12,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -19.628025485591436,
+          "z": 119.13097617774864,
+          "yaw": 6.193583773353598,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -146.99551288331824,
+          "z": 0.8110323834963589,
+          "yaw": 1.578948252688451,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 147.32178088935183,
+          "z": 51.4807966096791,
+          "yaw": 1.00056310195535,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -28.959522943718092,
+          "z": 101.94942301929709,
+          "yaw": 3.0002848850235933,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -115.15453070289557,
+          "z": 64.49376554067118,
+          "yaw": 2.413705560351046,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "hauling",
+      "illustrative": true,
+      "time": 13,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": 1.097177763717994,
+          "z": 119.99712964458607,
+          "yaw": 0.004256374862475543,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -144.57124288247513,
+          "z": -18.746576939704884,
+          "yaw": 1.315320190551315,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 157.07470641210207,
+          "z": 32.156020226760695,
+          "yaw": 1.2114288575734466,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": -49.55603910488564,
+          "z": 97.87663723882757,
+          "yaw": 2.8915877760476136,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -129.0655226969396,
+          "z": 49.62799697394611,
+          "yaw": 2.227898224442139,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "unloading",
+      "illustrative": true,
+      "time": 14,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": 58.531028454707545,
+          "z": 112.03323264306155,
+          "yaw": 0.27410048930940834,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -143.25681299390405,
+          "z": 23.22424109011996,
+          "yaw": 1.8837995203149012,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -156.338429032969,
+          "z": -34.05504246898189,
+          "yaw": 4.332638523509173,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 94.28347575957596,
+          "z": -79.67639994895833,
+          "yaw": -0.5370190598553025,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "unloading",
+      "illustrative": true,
+      "time": 15,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": 72.4171479019208,
+          "z": 107.56166760458241,
+          "yaw": 0.34805672120483644,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -146.18386513271852,
+          "z": 10.894185463976523,
+          "yaw": 1.71972272595436,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -160.85496323668693,
+          "z": -19.464349710537075,
+          "yaw": 4.493951702965472,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 105.34552371318826,
+          "z": -72.39995954419504,
+          "yaw": -0.6313235759541731,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "unloading",
+      "illustrative": true,
+      "time": 16,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": 85.96906535311938,
+          "z": 102.02779631998453,
+          "yaw": 0.4283089789655179,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -146.98047309300435,
+          "z": -1.6779560549753834,
+          "yaw": 1.546342619674664,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -162.89861780138557,
+          "z": -4.241555844223556,
+          "yaw": 4.666209934198217,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 115.59512534036968,
+          "z": -64.0986689545693,
+          "yaw": -0.7318793303440104,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "unloading",
+      "illustrative": true,
+      "time": 17,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": 99.05431523464678,
+          "z": 95.39588773750489,
+          "yaw": 0.512592191103455,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -145.60186130796998,
+          "z": -14.248224899915774,
+          "yaw": 1.3789929215330274,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -162.3090121727583,
+          "z": 11.073495858543982,
+          "yaw": 4.834379607095568,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 124.78733332550566,
+          "z": -54.81575499638903,
+          "yaw": -0.8479680609486252,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "unloading",
+      "illustrative": true,
+      "time": 18,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": 111.56253620544638,
+          "z": 87.60357194792661,
+          "yaw": 0.6053519529353308,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -142.14119955545564,
+          "z": -26.410907925285635,
+          "yaw": 1.2114288575734247,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -159.12688461140044,
+          "z": 26.083451933653,
+          "yaw": 5.004576369091833,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 132.7171561539297,
+          "z": -44.569612007615206,
+          "yaw": -0.9773123291867583,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "unloading",
+      "illustrative": true,
+      "time": 19,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": 123.30079901664827,
+          "z": 78.61566543057656,
+          "yaw": 0.7041484002594749,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -136.75118730973406,
+          "z": -38.014856040029784,
+          "yaw": 1.0622985328028756,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -153.5927632981011,
+          "z": 40.28974214292199,
+          "yaw": 5.162304414913512,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 139.13011066019862,
+          "z": -33.44520994054034,
+          "yaw": -1.1208808922660576,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "return",
+      "illustrative": true,
+      "time": 20,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -135.63814295316638,
+          "z": -66.68583639386375,
+          "yaw": 3.976715882919556,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -55.93103614539665,
+          "z": 96.13328553684538,
+          "yaw": 2.858389955111301,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -98.94427987553203,
+          "z": 95.45781199616206,
+          "yaw": 5.770593116076147,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 108.5506984672389,
+          "z": 69.98942451255284,
+          "yaw": -2.4800307162358655,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -162.00676025226826,
+          "z": 13.268209481489567,
+          "yaw": 4.861315379544153,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "return",
+      "illustrative": true,
+      "time": 21,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -158.29794385868345,
+          "z": -28.702173939350807,
+          "yaw": 4.3890248409793005,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -73.96721471773625,
+          "z": 89.7993933989949,
+          "yaw": 2.7490458133746833,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -59.15439978433605,
+          "z": 111.8563695627255,
+          "yaw": 6.00605490798293,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 92.87242698821416,
+          "z": 80.50317014886517,
+          "yaw": -2.618578907801802,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -145.3064770571314,
+          "z": 54.50704621211279,
+          "yaw": 5.31509548529703,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "return",
+      "illustrative": true,
+      "time": 22,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -161.5559196903142,
+          "z": 15.988481421561346,
+          "yaw": 4.893501587341538,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -91.09727307943481,
+          "z": 81.5141939455267,
+          "yaw": 2.6290004624863537,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": -17.04552888733698,
+          "z": 119.34526092265631,
+          "yaw": 6.20500708944601,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 75.83179296772627,
+          "z": 89.0148636264943,
+          "yaw": -2.7361275319131106,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -114.46235093794753,
+          "z": 85.55310548957863,
+          "yaw": 5.655599383778926,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    },
+    {
+      "phase": "return",
+      "illustrative": true,
+      "time": 23,
+      "actors": [
+        {
+          "id": "truck-0",
+          "kind": "truck",
+          "x": -51,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-1",
+          "kind": "truck",
+          "x": -77,
+          "z": -28,
+          "yaw": 0,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-2",
+          "kind": "truck",
+          "x": 16,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-3",
+          "kind": "truck",
+          "x": -12,
+          "z": 20,
+          "yaw": 3.141592653589793,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-4",
+          "kind": "truck",
+          "x": -143.75703336797275,
+          "z": 56.697197485330065,
+          "yaw": 5.3379563041265135,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-5",
+          "kind": "truck",
+          "x": -106.9577714948244,
+          "z": 71.20653115592465,
+          "yaw": 2.4952254074233653,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-6",
+          "kind": "truck",
+          "x": 25.678457378397727,
+          "z": 118.50877970140907,
+          "yaw": 0.11538554413127633,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-7",
+          "kind": "truck",
+          "x": 57.874869462768835,
+          "z": 95.5527007675109,
+          "yaw": -2.846194139276529,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "truck-8",
+          "kind": "truck",
+          "x": -76.44192950003644,
+          "z": 106.04656010475139,
+          "yaw": 5.913019909485627,
+          "halfLength": 6.2,
+          "halfWidth": 3.8
+        },
+        {
+          "id": "worker-0",
+          "kind": "worker",
+          "x": -52,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-1",
+          "kind": "worker",
+          "x": -50,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-2",
+          "kind": "worker",
+          "x": -48,
+          "z": -17,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-3",
+          "kind": "worker",
+          "x": 9,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-4",
+          "kind": "worker",
+          "x": 11,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-5",
+          "kind": "worker",
+          "x": 13,
+          "z": 34,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-6",
+          "kind": "worker",
+          "x": -162.53258272361083,
+          "z": -42.42905782799934,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-7",
+          "kind": "worker",
+          "x": -160.60398392505118,
+          "z": -43.74073868636172,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        },
+        {
+          "id": "worker-8",
+          "kind": "worker",
+          "x": -160.85377348310757,
+          "z": -46.05970508902606,
+          "yaw": 0,
+          "halfLength": 0.6,
+          "halfWidth": 0.6
+        }
+      ]
+    }
+  ],
+  "footprintCheck": {
+    "checkedFrames": 480,
+    "overlaps": 0,
+    "marginPerActorMetres": 0.5
+  },
+  "browserErrors": [],
+  "sourceHashes": {
+    "simulator/app.mjs": "2065767d989bf02ceae3b04e7fbb7f82f4d726914bdf82bdde997cccbc3500e5",
+    "simulator/core.mjs": "1e61305727a972ab82c4a2dd410dbdecf453e696f61db72d137812f1f4ee0e12",
+    "simulator/traffic.mjs": "bf2226be69be56a45ab6059ed529f3f8c5172af15884d22112cdf5f088531d96",
+    "simulator/style.css": "c906fb778452246e8f42d986bc30e12ef2280f86cf698aa118d62cf3c13aeb58"
+  }
+}

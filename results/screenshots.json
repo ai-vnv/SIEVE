@@ -1,0 +1,357 @@
+{
+  "viewport": {
+    "width": 1600,
+    "height": 1000,
+    "scale": 1.5
+  },
+  "manifest": [
+    {
+      "file": "figures/mine-passing.png",
+      "query": "family=nominal&policy=integrated&view=passing&t=12",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/simulator-overview.png",
+      "query": "family=combined&policy=guarded&view=overview&t=9",
+      "paper": false,
+      "result": {
+        "seed": 27000,
+        "family": "combined",
+        "policy": "guarded",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 12.303349771327134,
+        "stopTime": 25.200000000000223,
+        "stopped": true,
+        "brakeTime": 21.900000000000176,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-overview.png",
+      "query": "family=combined&policy=guarded&view=overview&t=9",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "combined",
+        "policy": "guarded",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 12.303349771327134,
+        "stopTime": 25.200000000000223,
+        "stopped": true,
+        "brakeTime": 21.900000000000176,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-guarded.png",
+      "query": "family=combined&policy=guarded&view=follow&t=35",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "combined",
+        "policy": "guarded",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 12.303349771327134,
+        "stopTime": 25.200000000000223,
+        "stopped": true,
+        "brakeTime": 21.900000000000176,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-baseline.png",
+      "query": "family=combined&policy=baseline&view=follow&t=35",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "combined",
+        "policy": "baseline",
+        "layer": "extended-model",
+        "collision": true,
+        "bufferViolation": true,
+        "minGap": -0.09575664609013756,
+        "stopTime": 13.800000000000061,
+        "stopped": false,
+        "brakeTime": 12.050000000000036,
+        "finalSpeed": 8.785923790478211
+      }
+    },
+    {
+      "file": "figures/mine-driver.png",
+      "query": "family=combined&policy=guarded&view=driver&t=18",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "combined",
+        "policy": "guarded",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 12.303349771327134,
+        "stopTime": 25.200000000000223,
+        "stopped": true,
+        "brakeTime": 21.900000000000176,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-left.png",
+      "query": "family=nominal&policy=guarded&view=left&t=8",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "guarded",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-right.png",
+      "query": "family=nominal&policy=guarded&view=right&t=8",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "guarded",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-extreme-dust.png",
+      "query": "family=extreme-dust&policy=integrated&view=driver&t=35",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "extreme-dust",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 142.77260088950774,
+        "stopTime": 3.099999999999997,
+        "stopped": true,
+        "brakeTime": 0,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-landslide.png",
+      "query": "family=landslide&policy=integrated&view=follow&t=35",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "landslide",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 142.77260088950774,
+        "stopTime": 3.099999999999997,
+        "stopped": true,
+        "brakeTime": 0,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-field-crew.png",
+      "query": "family=human-crossing&policy=integrated&view=field&t=35",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "human-crossing",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 142.77260088950774,
+        "stopTime": 3.099999999999997,
+        "stopped": true,
+        "brakeTime": 0,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-nominal.png",
+      "query": "family=nominal&policy=integrated&view=overview&t=7",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-loading.png",
+      "query": "family=nominal&policy=integrated&view=loading&t=12",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-unloading.png",
+      "query": "family=nominal&policy=integrated&view=unloading&t=12",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
+    },
+    {
+      "file": "figures/mine-operations.png",
+      "query": "family=nominal&policy=integrated&view=operations&t=12",
+      "paper": true,
+      "result": {
+        "seed": 27000,
+        "family": "nominal",
+        "policy": "integrated",
+        "layer": "extended-model",
+        "collision": false,
+        "bufferViolation": false,
+        "minGap": 38.897188585220874,
+        "stopTime": 12.400000000000041,
+        "stopped": true,
+        "brakeTime": 8.249999999999982,
+        "finalSpeed": 0
+      }
+    }
+  ],
+  "browserErrors": [],
+  "renderDiagnostics": [
+    {
+      "calls": 180,
+      "geometries": 241,
+      "textures": 5
+    },
+    {
+      "calls": 287,
+      "geometries": 243,
+      "textures": 19
+    },
+    {
+      "calls": 275,
+      "geometries": 243,
+      "textures": 7
+    },
+    {
+      "calls": 129,
+      "geometries": 243,
+      "textures": 7
+    },
+    {
+      "calls": 115,
+      "geometries": 243,
+      "textures": 7
+    },
+    {
+      "calls": 106,
+      "geometries": 236,
+      "textures": 7
+    },
+    {
+      "calls": 24,
+      "geometries": 235,
+      "textures": 5
+    },
+    {
+      "calls": 146,
+      "geometries": 235,
+      "textures": 5
+    },
+    {
+      "calls": 80,
+      "geometries": 235,
+      "textures": 6
+    },
+    {
+      "calls": 84,
+      "geometries": 238,
+      "textures": 7
+    },
+    {
+      "calls": 78,
+      "geometries": 250,
+      "textures": 6
+    },
+    {
+      "calls": 233,
+      "geometries": 243,
+      "textures": 6
+    },
+    {
+      "calls": 98,
+      "geometries": 241,
+      "textures": 5
+    },
+    {
+      "calls": 97,
+      "geometries": 241,
+      "textures": 5
+    },
+    {
+      "calls": 232,
+      "geometries": 243,
+      "textures": 6
+    }
+  ]
+}

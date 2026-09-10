@@ -1,0 +1,122 @@
+{
+  "artifacts": {
+    "results/episodes.csv": "1a33f72c6ee99ec4c8aba9a0336b2ac4177d02d67931cb8f1ae2f7903553c499",
+    "results/calibration.json": "97c8be07a05cb2cc30c5cb578f6d780f9a1266a00a0a4ae7e0aafae041e3d70b",
+    "results/haulage-summary.json": "5917775e537fe31e30abcd76f98292f22e0289f5d61c2d8d5cd12a06ba548d1f",
+    "results/haulage-shifts.jsonl": "9124f8190e1711242e736dbea598efc7a22cd8b06e85b37e10c6c11b75eeb293",
+    "results/integrated-validation.jsonl": "8b34da8fd2c57245f9f58565e1a7f5c344b8bf8977260113868fe97b347ca0e5"
+  },
+  "schemaVersion": "1.0",
+  "configuration": "sieve-1.1.0",
+  "dependencies": {
+    "simulator/core.mjs": "1e61305727a972ab82c4a2dd410dbdecf453e696f61db72d137812f1f4ee0e12",
+    "simulator/haulage.mjs": "5b685484190a077bc59cc0aed7831a97dde2e5f9455a2067b03e230759e66788",
+    "config/policy.mjs": "fcfd9269258bbe2771dc8d0882e2d6309f7b2faba2438807f8dbbbeeb5aa1696",
+    "data/calibration-samples.csv": "6f7ad6ce44d710bde507853866feaff994d4e30a9c280a2cbdb1d5cc74b9d8e3",
+    "scripts/experiment.mjs": "1959bf89c7d4dd5fe5a220efceaa174e639b4e3fdd11d09212e7572cb08c3885",
+    "scripts/calibrate.mjs": "5531776ecf75b8bdba3f14cb7e595964c2df8c51fd358edb9a89055ded94317a",
+    "scripts/haulage-experiment.mjs": "c59f006ae783fbf1ba91894b49ff1922f3dd880ce2f26a12f652c5769a540f4c",
+    "scripts/assurance.mjs": "021846ea6890a9dc8c3a3b64c148b31387e36eb1a1986fcd3bf84288059a714e"
+  },
+  "dataOrigin": "synthetic",
+  "scope": {
+    "truck": "240 t payload class for queueing study; reduced-order longitudinal dynamics",
+    "operatingFamilies": [
+      "nominal",
+      "dust",
+      "wet",
+      "combined"
+    ],
+    "outOfDomainActions": [
+      "extreme-dust:hold",
+      "landslide:route-closed",
+      "human-crossing:hold-for-clearance"
+    ],
+    "physicalCalibration": false
+  },
+  "roles": {
+    "requirementsOwner": "author review pending",
+    "testExecutor": "automated scripts",
+    "physicalTestApprover": null,
+    "releaseAuthority": null
+  },
+  "requirements": [
+    {
+      "id": "R-STOP-5",
+      "claim": "Minimum clearance >= 5 m",
+      "metric": "minimum longitudinal clearance (m)",
+      "threshold": 5,
+      "evidence": "results/haulage-summary.json#validation",
+      "n": 4000,
+      "failures": 0,
+      "verdict": "PASS_IN_MODEL"
+    },
+    {
+      "id": "R-ODD-HOLD",
+      "claim": "Stop when route closed, severe dust or crew exclusion is announced",
+      "evidence": [
+        {
+          "family": "extreme-dust",
+          "n": 100,
+          "seedStart": 71000,
+          "seedEnd": 71099,
+          "failures": 0,
+          "evidenceKind": "simulation"
+        },
+        {
+          "family": "landslide",
+          "n": 100,
+          "seedStart": 71000,
+          "seedEnd": 71099,
+          "failures": 0,
+          "evidenceKind": "simulation"
+        },
+        {
+          "family": "human-crossing",
+          "n": 100,
+          "seedStart": 71000,
+          "seedEnd": 71099,
+          "failures": 0,
+          "evidenceKind": "simulation"
+        }
+      ],
+      "verdict": "PASS_IN_MODEL"
+    },
+    {
+      "id": "R-PRODUCTIVITY",
+      "claim": "Report throughput, cycle time, moving/shift speed and time losses without replacing safety requirements",
+      "evidence": "results/haulage-summary.json",
+      "verdict": "MEASURED_IN_MODEL"
+    },
+    {
+      "id": "R-PHYSICAL-CONFIRMATION",
+      "claim": "Ground and field evidence corroborate the model scope",
+      "evidence": [],
+      "verdict": "NOT_TESTED"
+    }
+  ],
+  "changeControl": {
+    "rule": "Any dependency hash change invalidates the associated evidence until tests and review are repeated.",
+    "trainingSeeds": [
+      61000,
+      61249
+    ],
+    "validationSeeds": [
+      41000,
+      41999
+    ],
+    "shiftSeeds": [
+      51000,
+      51199
+    ],
+    "sampleReuse": "Calibration and simulator development only; synthetic sample origin is retained."
+  },
+  "release": {
+    "verdict": "BLOCKED",
+    "reasons": [
+      "No physical calibration or field confirmation.",
+      "No human review or release approval."
+    ],
+    "approver": null
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+__pycache__/
+.media-cache/
+.DS_Store
+*.aux
+*.log
+*.out
+*.blg
+*.fls
+*.fdb_latexmk
+*.xdv
+*.env
+.env*

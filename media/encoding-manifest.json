@@ -1,0 +1,77 @@
+{
+  "metricsSource": "results/haulage-summary.json",
+  "metricsSHA256": "5917775e537fe31e30abcd76f98292f22e0289f5d61c2d8d5cd12a06ba548d1f",
+  "clips": [
+    {
+      "file": "haulage-clean.mp4",
+      "bytes": 2889492,
+      "sha256": "e97458ebe713e2a414a4faefc5617095e6e3f9e6f57e6345f195e435fa6c95e2",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 540,
+          "side_data_list": [
+            {}
+          ]
+        }
+      ],
+      "format": {
+        "duration": "24.000000"
+      }
+    },
+    {
+      "file": "haulage-clean.gif",
+      "bytes": 3789514,
+      "sha256": "a16a9b82509e75b0f65bf76043f3a65481b8bb892d0713b5fa43eeb64bea4c7c",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "width": 480,
+          "height": 270
+        }
+      ],
+      "format": {
+        "duration": "12.000000"
+      }
+    },
+    {
+      "file": "haulage-annotated.mp4",
+      "bytes": 3274699,
+      "sha256": "b1b324659c264dc2cbd4d343c6113faa38a81bb8d80abb69e7dc745998dfff15",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 540
+        }
+      ],
+      "format": {
+        "duration": "24.000000"
+      }
+    },
+    {
+      "file": "haulage-annotated.gif",
+      "bytes": 3425187,
+      "sha256": "841502b459d21127046bb6418d5851fb9dc0ac6f3dae9bfc5dbb41016464fde5",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "width": 480,
+          "height": 270
+        }
+      ],
+      "format": {
+        "duration": "12.000000"
+      }
+    }
+  ]
+}
