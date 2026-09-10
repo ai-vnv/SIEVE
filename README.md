@@ -2,29 +2,16 @@
 
 **Staged Integration of Evidence across Verification Environments**
 
-[![Reproducibility](https://github.com/ai-vnv/SIEVE/actions/workflows/ci.yml/badge.svg)](https://github.com/ai-vnv/SIEVE/actions/workflows/ci.yml)
+[![CI](https://github.com/ai-vnv/SIEVE/actions/workflows/ci.yml/badge.svg)](https://github.com/ai-vnv/SIEVE/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-397d80.svg)](LICENSE)
 ![Node.js 24](https://img.shields.io/badge/Node.js-24-627d98.svg)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-627d98.svg)
-![Evidence: synthetic](https://img.shields.io/badge/evidence-synthetic-b29454.svg)
 
-A reproducible research simulator for autonomous open-pit haulage. SIEVE connects context-specific safety tests, controller revision, productivity experiments, 3D inspection, and versioned engineering evidence.
-
-**Maintainer:** [mansurarief](https://github.com/mansurarief) · **[Paper / Overleaf sources](https://github.com/mansurarief/SIEVE-paper)** · **[Evidence protocol](docs/EVIDENCE_PROTOCOL.md)**
-
-## See the haul cycle
-
-Shovel loading → loaded haul → crusher discharge → empty return. Additional trucks, machinery, and segregated workers provide mine context.
+A reproducible research simulator for autonomous open-pit haulage. SIEVE connects context-specific safety tests, controller revision, productivity experiments, 3D inspection, and versioned engineering evidence. Processes modeled: shovel loading → loaded haul → crusher discharge → empty return. Additional trucks, machinery, and segregated workers provide mine context.
 
 ![Text-free haulage workflow](media/haulage-clean.gif)
 
 **[Clean MP4](media/haulage-clean.mp4)** · **[Clean GIF](media/haulage-clean.gif)**
-
-![Haulage workflow annotated with reproducible study results](media/haulage-annotated.gif)
-
-**[Annotated MP4](media/haulage-annotated.mp4)** · **[Annotated GIF](media/haulage-annotated.gif)** · **[Media provenance](media/README.md)**
-
-These are synthetic illustrative montages, with compressed presentation time and cuts between workflow stages. They are not continuous trajectories from the fleet scheduler. Annotation values come from the numerical study; the clean video contains no labels or interface text. MP4s are silent 960 × 540, 20 fps; GIFs are 480 × 270 previews at twice the presentation speed.
 
 ## Run locally
 
@@ -37,7 +24,7 @@ npm ci
 npm start
 ```
 
-Open **http://127.0.0.1:8766/simulator/**. Both repositories are private, so GitHub authentication is required to clone them.
+Open **http://127.0.0.1:8766/simulator/**.
 
 Choose conditions, controller, model scope, and seed, then press **Restart**. Inspect **Overview**, **Follow**, **Driver**, **Left**, **Right**, **Plan**, **Field crew**, **Loading**, **Unloading**, **Passing**, and **Operations**. **Shift study** displays the stored 200-shift comparisons; **Save evidence** exports an encounter and trajectory. The driver view includes a dashboard.
 
@@ -77,13 +64,11 @@ Means over 200 synthetic eight-hour shifts per strategy; each delivered load is 
 
 ![Productivity–safety comparison and fleet time accounting](figures/productivity.png)
 
-The initial guard still violates the 5 m requirement in 35 of 1,000 combined-condition encounters, including one collision. The revised envelope has zero observed violations in 4,000 validation encounters. These are outcomes under stated synthetic distributions, not measured mine accident rates, proof of zero risk, or a comparison with human drivers.
-
-The shift model explicitly assumes loading and dumping service times, dispatch-order reservations, hazard exposure, recovery downtime, and human-clearance timing. Coordinating clearance with loading increases modeled throughput; setting the acknowledgment duration to zero removes that advantage. The final release record remains **BLOCKED** because physical confirmation and signed human review are absent.
+The initial guard still violates the 5 m requirement in 35 of 1,000 combined-condition encounters, including one collision. The revised envelope has zero observed violations in 4,000 validation encounters. The shift model explicitly assumes loading and dumping service times, dispatch-order reservations, hazard exposure, recovery downtime, and human-clearance timing. Coordinating clearance with loading increases modeled throughput; setting the acknowledgment duration to zero removes that advantage.
 
 ## Figures, media, and the paper
 
-`npm run reproduce` also regenerates the Times New Roman vector plots and framework figure. It requires XeLaTeX/BibTeX, the packages listed in [reproduction notes](docs/REPRODUCIBILITY.md), and Times New Roman. The paper is built separately.
+`npm run reproduce` also regenerates the Times New Roman vector plots and framework figure. It requires XeLaTeX/BibTeX.
 
 With the local server running and Google Chrome and FFmpeg installed:
 
@@ -93,16 +78,6 @@ npm run media
 ```
 
 The media script captures deterministic frames into ignored `.media-cache/`, encodes four compact clips, and records dimensions, duration, source hashes, and browser errors. `SIEVE_BASE_URL` can select another server when capturing media.
-
-To update a sibling paper checkout after regenerating evidence:
-
-```sh
-python3 scripts/export_paper.py ../SIEVE-paper
-cd ../SIEVE-paper
-bash scripts/build.sh
-```
-
-The exporter copies only figure and numeric inputs, records the code commit and SHA-256 hashes, and leaves manuscript prose untouched.
 
 ## Repository map
 
@@ -114,18 +89,7 @@ The exporter copies only figure and numeric inputs, records the code commit and 
 - `media/`: small clean/annotated MP4 and GIF demonstrations with manifests.
 - `docs/`: engineering evidence protocol and reproducibility details.
 
-Built-in data and scenes are synthetic. Import future measured records with `node scripts/calibrate.mjs --input path/to/observations.csv`; see [data documentation](data/README.md). The default reproduction restores the built-in synthetic study. Physical measurements require their own provenance, uncertainty, and review; changing an input invalidates affected evidence.
 
 ## License and citation
 
-Original code, documentation, generated data, and procedural media: **[MIT](LICENSE)**, copyright 2026 **mansurarief**. Dependencies retain their licenses; see [third-party notices](THIRD_PARTY_NOTICES.md). The manuscript has separate publication rights.
-
-Use [CITATION.cff](CITATION.cff) to cite the software. The companion manuscript is a submission draft, not an accepted or published conference paper.
-
-Presentation traffic uses lane-aware spacing, and capture checks conservative oriented truck and worker footprints on every frame with a 0.5 m margin per actor. An overlap stops capture. Opposing traffic advances in its direction of travel; the return truck is empty. This check prevents visual interpenetration in the demonstration and is separate from the paper’s stopping-safety evidence.
-
-Wheels rotate from traveled distance using the rendered tire radius. Payload height increases during loading, is full before loaded haul begins, decreases during discharge, and is zero on the empty return lane. Capture verifies all six wheel angles and the loaded/empty states on every frame.
-
-The default surface is **unpaved compacted earth and gravel**, with unpainted wheel paths and irregular shoulders. Enable **Paved road** in the controls to opt into the paved rendering; the switch preserves the selected encounter, camera, replay time, and playback rate while reloading the scene. `?surface=paved` creates a direct paved-view link. Surface selection changes the rendering, not the numerical braking model. Trucks use front single tires and separated rear duals on two axles; tire-envelope checks guard against interpenetration.
-
-The manuscript framework uses `figures/framework-with-figure.tex`, an includable TikZ source with explicit image paths and generated result counts. All mine scene figures use the default unpaved surface. Scene insets and calibration samples are identified as synthetic in the manuscript caption.
+Original code, documentation, generated data, and procedural media: **[MIT](LICENSE)**. Dependencies retain their licenses; see [third-party notices](THIRD_PARTY_NOTICES.md). The manuscript has separate publication rights. Use [CITATION.cff](CITATION.cff) to cite the software. 
